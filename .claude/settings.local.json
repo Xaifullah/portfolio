@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" status)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" diff --stat)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" log --oneline -5)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" diff)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" add -A)",
+      "Bash(git -C \"D:/git/sadi/portfolio\" commit -m \"$\\(cat <<''EOF''\nAdd ChatBot component and update portfolio content\n\n- Add ChatBot.vue component with AI-powered chat functionality\n- Integrate ChatBot into VitePress theme layout\n- Update site configuration, styling, and content pages\n- Update dependencies and deployment workflow\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
