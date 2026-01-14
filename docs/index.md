@@ -95,9 +95,9 @@ I architect scalable solutions that transform complex spatial data into interact
     </div>
     <div class="tech-badges">
       <span class="tech-badge">C#</span>
+      <span class="tech-badge">.Net</span>
       <span class="tech-badge">TypeScript</span>
       <span class="tech-badge">JavaScript</span>
-      <span class="tech-badge">Python</span>
       <span class="tech-badge">SQL</span>
     </div>
   </div>
@@ -110,6 +110,7 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">Unity3D</span>
       <span class="tech-badge">Game Physics</span>
       <span class="tech-badge">AI/NPC</span>
+      <span class="tech-badge">Publishing</span>
     </div>
   </div>
 
@@ -154,7 +155,7 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">Git</span>
       <span class="tech-badge">Docker</span>
       <span class="tech-badge">AWS</span>
-      <span class="tech-badge">Steam</span>
+      <span class="tech-badge">GCP</span>
     </div>
   </div>
 </div>

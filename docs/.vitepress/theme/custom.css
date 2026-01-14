@@ -139,7 +139,7 @@
 
 .contact-link:hover {
   background: var(--vp-c-brand-1);
-  color: white;
+  color: white !important;
 }
 
 /* Timeline for experience */
@@ -513,22 +513,24 @@
 
 .cta-button.primary {
   background: var(--vp-c-brand-1);
-  color: white;
+  color: white !important;
 }
 
 .cta-button.primary:hover {
   background: var(--vp-c-brand-2);
+  color: white !important;
   transform: translateY(-2px);
 }
 
 .cta-button.secondary {
   background: var(--vp-c-bg);
-  color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1) !important;
   border: 1px solid var(--vp-c-brand-1);
 }
 
 .cta-button.secondary:hover {
   background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1) !important;
   transform: translateY(-2px);
 }
 

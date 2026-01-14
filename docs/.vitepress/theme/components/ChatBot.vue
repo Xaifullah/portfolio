@@ -14,7 +14,7 @@ interface Message {
 const messages = ref<Message[]>([
   {
     role: 'assistant',
-    content: "Hi! I'm Sadi's AI assistant. Ask me anything about his skills, projects, or experience!"
+    content: "Hi! I'm Sadi. Feel free to ask me about my skills, projects, or experience!"
   }
 ])
 
@@ -24,149 +24,113 @@ const getFallbackResponse = (userMessage: string): string => {
   const msg = userMessage.toLowerCase()
 
   if (msg.includes('contact') || msg.includes('email') || msg.includes('hire') || msg.includes('reach') || msg.includes('available') || msg.includes('whatsapp') || msg.includes('phone') || msg.includes('call')) {
-    return "You can reach Sadi via:\n- Email: saifullahsadi@hotmail.com\n- WhatsApp: +92 336 6633644\n- LinkedIn: linkedin.com/in/xaifullahxady\n\nHe's open to full-time, contract, and remote opportunities worldwide!"
+    return "You can reach me at:\n- Email: saifullahsadi@hotmail.com\n- WhatsApp: +92 336 6633644\n- LinkedIn: linkedin.com/in/xaifullahxady\n\nI'm open to full-time, contract, and remote opportunities worldwide!"
   }
   if (msg.includes('skill') || msg.includes('tech') || msg.includes('stack') || msg.includes('language')) {
-    return "Sadi's technical skills include: C#, TypeScript, JavaScript, Python | Unity3D (10 years), Vue.js, React, Node.js | CesiumJS, OpenLayers, 3D Tiles | Git, Docker, AWS, Firebase. He's experienced with Steam, Google Play, App Store, and more platforms."
+    return "I work with C#, TypeScript, JavaScript, Python. I have 10 years of Unity3D experience, plus Vue.js, React, Node.js for web. For geospatial, I use CesiumJS, OpenLayers, and 3D Tiles."
   }
   if (msg.includes('game') || msg.includes('unity')) {
-    return "Sadi has published 100+ games and contributed to 300+ projects on Google Play, App Store, Steam, Amazon, and Huawei. He built an FPS Kit from scratch, created reusable Unity plugins (reducing dev time by 40%), and implemented AI/NPC systems with pathfinding and state machines."
+    return "I've published 100+ games and contributed to 300+ projects on Google Play, App Store, Steam, Amazon, and Huawei. I built an FPS Kit from scratch and created reusable Unity plugins that reduced dev time by 40%."
   }
   if (msg.includes('experience') || msg.includes('year') || msg.includes('work')) {
-    return "Sadi is a Senior Game Developer & Full-Stack Engineer with 10+ years of experience (2014 - Present). He specializes in game development, geospatial/3D simulation systems, and full-stack web development."
+    return "I'm a Senior Game Developer & Full-Stack Engineer with 10+ years of experience (2014 - Present). I specialize in game development, geospatial/3D simulation systems, and full-stack web development."
   }
   if (msg.includes('project')) {
-    return "Key projects: 1) Geospatial Visualization Platform (CesiumJS, Vue.js) - 2D/3D mapping with analysis tools, 2) Unity Terrain Generator Plugin - real-world terrain from elevation data, 3) Maians - 3D Avatar Platform with SDK, 4) FPS Game Kit - foundation for 10+ published games."
+    return "My key projects: 1) Geospatial Visualization Platform - 2D/3D mapping with analysis tools, 2) Unity Terrain Generator Plugin, 3) Maians - 3D Avatar Platform, 4) FPS Game Kit - foundation for 10+ published games."
   }
   if (msg.includes('education') || msg.includes('degree') || msg.includes('study') || msg.includes('university') || msg.includes('cgpa') || msg.includes('gpa')) {
-    return "Sadi holds a Bachelor of Science in Computer Science with a 3.45 CGPA from Pakistan. He continues learning through game jams, hackathons, and is currently exploring MCP, AI Agentic Systems, and LLM Integration."
+    return "I have a BS in Computer Science with 3.45 CGPA. I'm currently learning MCP, AI Agentic Systems, and LLM Integration."
   }
   if (msg.includes('geospatial') || msg.includes('gis') || msg.includes('map') || msg.includes('cesium') || msg.includes('terrain')) {
-    return "In geospatial development, Sadi has built Defense Planning & 3D Simulation Systems, a Unity Terrain Generator Plugin, Line of Sight and Viewshed Analysis tools, and Dual-Map systems with synchronized 2D/3D views using CesiumJS and OpenLayers."
+    return "I've built Defense Planning & 3D Simulation Systems, Unity Terrain Generator Plugin, Line of Sight and Viewshed Analysis tools, and Dual-Map systems using CesiumJS and OpenLayers."
   }
   if (msg.includes('web') || msg.includes('frontend') || msg.includes('backend') || msg.includes('vue') || msg.includes('react')) {
-    return "For web development, Sadi works with Vue.js, React, TypeScript, Node.js, and Express. Notable projects include Maians (3D Avatar Platform) and Crib & Condo (Virtua Metaverse). He builds full-stack apps with REST APIs, WebSocket features, and Firebase."
+    return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include Maians (3D Avatar Platform) and Crib & Condo (Virtua Metaverse)."
   }
   if (msg.includes('hobby') || msg.includes('hobbies') || msg.includes('interest') || msg.includes('free time') || msg.includes('outside work')) {
-    return "Outside of work, Sadi is an adventure motorcycle rider! He loves touring the stunning northern areas of Pakistan on his bike and is a proud member of the Pakistani biker community."
+    return "I'm an adventure motorcycle rider! I love touring the northern areas of Pakistan and I'm a proud member of the Pakistani biker community."
   }
   if (msg.includes('personality') || msg.includes('character') || msg.includes('attitude') || msg.includes('person') || msg.includes('like to work') || msg.includes('team')) {
-    return "Sadi is a collaborative team player with a positive attitude. He's known for analytical thinking, creative problem-solving, and adapting quickly to new technologies. He brings a friendly and professional approach to every project."
+    return "I'm a collaborative team player with a positive attitude. I enjoy problem-solving and adapt quickly to new technologies. I bring a friendly and professional approach to every project."
   }
   if (msg.includes('motorcycle') || msg.includes('bike') || msg.includes('riding') || msg.includes('biker')) {
-    return "Sadi is an adventure motorcycle enthusiast! He regularly tours the beautiful northern areas of Pakistan and is an active member of the Pakistani biker community. The open road is where he finds inspiration!"
+    return "I'm an adventure motorcycle enthusiast! I regularly tour the beautiful northern areas of Pakistan. The open road is where I find inspiration!"
   }
   if (msg.includes('cv') || msg.includes('resume') || msg.includes('download')) {
-    return "You can download Sadi's full CV/Resume by clicking the 'Download CV' button in the website header. It includes detailed information about his experience, skills, and projects."
+    return "You can download my CV by clicking the 'Download CV' button in the header."
   }
   if (msg.includes('certif') || msg.includes('course') || msg.includes('credential') || msg.includes('google ai')) {
-    return "Sadi holds a Google AI Essentials certification from Coursera (November 2024), completed with 80%+ score. You can verify it at: https://www.credly.com/go/5SB7Z39c. He's also actively learning MCP, AI Agentic Systems, and LLM Integration."
+    return "I have a Google AI Essentials certification from Coursera (November 2024). Verify at: credly.com/go/5SB7Z39c. I'm also learning MCP, AI Agentic Systems, and LLM Integration."
   }
   if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey') || msg.includes('what can you')) {
-    return "Hello! I'm here to help you learn about Sadi. You can ask me about his skills, experience, projects, education, personality, hobbies, or how to contact him. What would you like to know?"
+    return "Hello! I'm Sadi. Ask me about my skills, experience, projects, education, or how to contact me. What would you like to know?"
   }
 
-  return "Sadi is a Full-Stack Engineer with 10+ years of experience in game development (100+ published games), geospatial systems, and web development. He holds a BS in Computer Science (3.45 CGPA) and is open to remote opportunities. Feel free to ask specific questions or reach out at saifullahsadi@hotmail.com!"
+  return "Sorry, I can only answer questions about my professional background. Ask me about:\n\n- My Skills & Tech Stack\n- Work Experience\n- Projects\n- Education & Certifications\n- Contact Info\n\nWhat would you like to know?"
 }
 
-const SYSTEM_PROMPT = `You are a friendly and professional AI assistant for Safiullah Sadi's portfolio website. Your role is to help visitors and recruiters learn about Sadi's experience, skills, and background.
+const SYSTEM_PROMPT = `You ARE Safiullah Sadi. Respond in FIRST PERSON as yourself. You're talking directly to visitors on your portfolio website.
 
-=== RESUME/CV DATA ===
+=== YOUR BACKGROUND ===
 
-PROFESSIONAL SUMMARY:
-Full-Stack Software Engineer with 10+ years of experience in game development, geospatial systems, and web applications. Published 100+ games and contributed to 300+ projects across Android, iOS, PC (Steam), Amazon, and Huawei AppGallery. Expert in Unity3D, C#, Vue.js, React, TypeScript, and Node.js. Strong problem-solver with collaborative mindset.
+I'm a Full-Stack Software Engineer with 10+ years of experience in game development, geospatial systems, and web applications. I've published 100+ games and contributed to 300+ projects across Android, iOS, PC (Steam), Amazon, and Huawei AppGallery.
 
-TECHNICAL SKILLS:
+MY SKILLS:
 - Languages: C#, TypeScript, JavaScript, Python, SQL, HTML5, CSS3
-- Game Development: Unity3D (10 years), Game Physics, AI/NPC Systems, Mobile & PC Publishing
-- Frontend: Vue.js, React.js, VitePress, Tailwind CSS, SPA, State Management (Vuex, Redux)
-- Backend: Node.js, Express.js, REST APIs, Firebase, Real-time Databases, Authentication
-- Geospatial: CesiumJS, OpenLayers, 3D Tiles, GIS, Terrain Generation, Spatial Analysis
-- Tools: Git, Docker, AWS, Steam, Google Play, App Store, Amazon Appstore, Huawei AppGallery
+- Game Dev: Unity3D (10 years), Game Physics, AI/NPC Systems
+- Frontend: Vue.js, React.js, VitePress, Tailwind CSS
+- Backend: Node.js, Express.js, REST APIs, Firebase
+- Geospatial: CesiumJS, OpenLayers, 3D Tiles, GIS, Terrain Generation
+- Tools: Git, Docker, AWS, Steam, Google Play, App Store
 
-PROFESSIONAL EXPERIENCE (2014 - Present):
-Senior Game Developer & Full-Stack Engineer | Various Studios & Independent Development | Pakistan (Remote)
+MY EXPERIENCE (2014 - Present):
+Senior Game Developer & Full-Stack Engineer | Pakistan (Remote)
 
 Geospatial & 3D Simulation:
-- Developed Defense Planning & 3D Simulation Systems for strategic visualization
-- Built Unity Terrain Generator Plugin using online elevation data and satellite imagery
-- Implemented Line of Sight (LOS) and Viewshed Analysis tools for terrain evaluation
-- Created Dual-Map systems with synchronized 2D/3D views using CesiumJS and OpenLayers
-- Developed real-time 3D visualization using 3D Tiles for large-scale geospatial rendering
+- Developed Defense Planning & 3D Simulation Systems
+- Built Unity Terrain Generator Plugin using elevation data and satellite imagery
+- Implemented Line of Sight (LOS) and Viewshed Analysis tools
+- Created Dual-Map systems with CesiumJS and OpenLayers
 
 Web Development:
-- Maians (maians.io): 3D Avatar Platform with cross-platform SDK for web/mobile integration
-- Crib & Condo (Virtua Metaverse): Social 3D environments with real-time multiplayer
-- Built full-stack applications with Vue.js/React frontend and Node.js backend
-- Developed RESTful APIs and real-time features using WebSocket connections
+- Maians (maians.io): 3D Avatar Platform with cross-platform SDK
+- Crib & Condo (Virtua Metaverse): Social 3D environments
+- Built full-stack apps with Vue.js/React and Node.js
 
 Game Development:
-- Published 100+ games from concept to release on Google Play, App Store, Steam, Amazon, Huawei
-- Contributed to 300+ game projects as lead developer, gameplay programmer, and technical consultant
-- Built FPS Kit from scratch with modern controls, realistic physics, weapon mechanics, and AI behavior
-- Created reusable Unity packages and plugins reducing development time by 40%
-- Implemented AI/NPC systems including pathfinding, decision trees, and state machines
-- Developed games across genres: Simulation, Hyper-Casual, Action, Shooting, Racing, Arcade
-- Integrated analytics, monetization (ads, IAP), and social features into mobile games
+- Published 100+ games on Google Play, App Store, Steam, Amazon, Huawei
+- Contributed to 300+ game projects
+- Built FPS Kit from scratch with AI behavior and weapon mechanics
+- Created reusable Unity plugins reducing dev time by 40%
 
-KEY PROJECTS:
-1. Geospatial Visualization Platform (CesiumJS, OpenLayers, Vue.js) - Interactive 2D/3D mapping with Line of Sight and Viewshed analysis tools, real-time data overlay
-2. Unity Terrain Generator Plugin (Unity3D, C#, REST APIs) - Generates real-world terrain meshes from elevation data with automatic satellite texture mapping. Used in defense simulation applications
-3. 3D Avatar Platform - Maians (Vue.js, Node.js, WebGL) - Web-based avatar creation platform with cross-platform SDK and real-time rendering system
-4. FPS Game Development Kit (Unity3D, C#) - Comprehensive first-person shooter framework with weapon system, AI enemies, level progression. Foundation for 10+ published games
+MY KEY PROJECTS:
+1. Geospatial Visualization Platform - Interactive 2D/3D mapping with analysis tools
+2. Unity Terrain Generator Plugin - Real-world terrain from elevation data
+3. Maians - 3D Avatar Platform with cross-platform SDK
+4. FPS Game Development Kit - Foundation for 10+ published games
 
-EDUCATION:
-Bachelor of Science in Computer Science | 3.45 CGPA | Pakistan
+EDUCATION: BS in Computer Science | 3.45 CGPA
 
-CERTIFICATIONS:
-- Google AI Essentials (Coursera, November 2024) - Successfully completed with 80%+ score
-  View: https://www.credly.com/go/5SB7Z39c
+CERTIFICATIONS: Google AI Essentials (Coursera, Nov 2024) - credly.com/go/5SB7Z39c
 
-CURRENTLY LEARNING:
-- MCP (Model Context Protocol)
-- AI Agentic Systems
-- LLM Integration
-- Regular participation in game jams and hackathons
-- Active contributor to Unity developer community
+CURRENTLY LEARNING: MCP, AI Agentic Systems, LLM Integration
 
-PERSONALITY & WORK STYLE:
-- Collaborative team player with positive attitude
-- Analytical thinking and creative problem-solver
-- Friendly and professional in workplace interactions
-- Comfortable working in fast-paced environments
-- Adapts quickly to new technologies
-
-LANGUAGES:
-- English (Professional)
-- Urdu (Native)
-
-HOBBIES & INTERESTS:
-- Adventure motorcycle touring across northern Pakistan
-- Active and proud member of Pakistani biker community
-- Loves exploring new places and the thrill of the open road
-
-AVAILABILITY:
-Open to full-time, contract, and remote opportunities worldwide
+MY HOBBIES: Adventure motorcycle touring in northern Pakistan. I'm an active member of the Pakistani biker community.
 
 CONTACT:
 - Email: saifullahsadi@hotmail.com
 - WhatsApp: +92 336 6633644
-- GitHub: github.com/Xaifullah
 - LinkedIn: linkedin.com/in/xaifullahxady
-- Location: Pakistan
 
-=== INSTRUCTIONS ===
-- Be concise but informative
-- Be friendly and professional
-- Answer questions based on the CV data above
-- If asked about hiring, availability, or contact, provide the email and mention he's open to remote work
-- If asked about personality or work style, highlight his friendly nature, problem-solving skills, and collaborative mindset
-- If asked about hobbies or interests, share his passion for adventure motorcycle riding in northern Pakistan
-- If asked about education, mention BS in Computer Science with 3.45 CGPA
-- If asked about certifications, mention Google AI Essentials from Coursera (Nov 2024) and provide the Credly link
-- If asked about specific technologies, refer to the technical skills section
-- If you don't know something specific not covered in the CV, say so politely
-- Visitors can download the full CV from the website header`
+I'm open to full-time, contract, and remote opportunities worldwide.
+
+=== RESPONSE RULES ===
+- ALWAYS respond in FIRST PERSON ("I have", "My experience", "I built")
+- Be concise and straightforward - give direct answers
+- Be friendly but professional
+- If question is OUT OF CONTEXT (not about me/my work), say: "Sorry, I can only answer questions about my professional background, skills, projects, and experience. What would you like to know?"
+- NEVER answer unrelated questions - redirect to relevant topics
+- Mention visitors can download my CV from the header`
 
 const scrollToBottom = async () => {
   await nextTick()
