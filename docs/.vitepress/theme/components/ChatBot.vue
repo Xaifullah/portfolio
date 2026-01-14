@@ -20,6 +20,31 @@ const messages = ref<Message[]>([
 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
 
+const getFallbackResponse = (userMessage: string): string => {
+  const msg = userMessage.toLowerCase()
+
+  if (msg.includes('contact') || msg.includes('email') || msg.includes('hire') || msg.includes('reach')) {
+    return "You can reach Sadi at saifullahsadi@hotmail.com. He's always open to discussing new opportunities!"
+  }
+  if (msg.includes('skill') || msg.includes('tech') || msg.includes('stack')) {
+    return "Sadi specializes in Unity Game Development (10+ years), Geospatial/3D Simulation (CesiumJS, OpenLayers), and Full-Stack Web Development (Vue.js, React, Node.js, TypeScript)."
+  }
+  if (msg.includes('game') || msg.includes('unity')) {
+    return "Sadi has published 100+ games and participated in 300+ game projects across Android, iOS, PC (Steam), and more. He's built FPS systems, AI/NPC behaviors, and reusable Unity packages."
+  }
+  if (msg.includes('experience') || msg.includes('year')) {
+    return "Sadi is a Full-Stack Software Engineer with 10+ years of experience, specializing in game development, geospatial systems, and web development."
+  }
+  if (msg.includes('project')) {
+    return "Notable projects include: Maians (3D Avatar Platform), defense planning & simulation systems, Unity Terrain Generator plugin, and 100+ published games. Check out the Projects page for more details!"
+  }
+  if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey')) {
+    return "Hello! I'm here to help you learn about Sadi's work and experience. Feel free to ask about his skills, projects, or how to get in touch!"
+  }
+
+  return "Thanks for your interest! Sadi is a Full-Stack Engineer with 10+ years of experience in game development, geospatial systems, and web development. Feel free to reach out at saifullahsadi@hotmail.com for more details!"
+}
+
 const SYSTEM_PROMPT = `You are a friendly and professional AI assistant for Safiullah Sadi's portfolio website. Your role is to help visitors and recruiters learn about Sadi's experience and skills.
 
 About Safiullah Sadi:
@@ -120,22 +145,18 @@ const sendMessage = async () => {
     if (data.candidates && data.candidates[0]?.content?.parts?.[0]?.text) {
       const assistantMessage = data.candidates[0].content.parts[0].text
       messages.value.push({ role: 'assistant', content: assistantMessage })
-    } else if (data.error) {
-      messages.value.push({
-        role: 'assistant',
-        content: `Sorry, I encountered an error. Please try again later. (${data.error.message || 'Unknown error'})`
-      })
     } else {
+      // API error or no response - use fallback
       messages.value.push({
         role: 'assistant',
-        content: "Sorry, I couldn't process that. Please try again."
+        content: getFallbackResponse(userMessage)
       })
     }
   } catch (error) {
-    console.error('Chat error:', error)
+    // Network error or other issue - use fallback
     messages.value.push({
       role: 'assistant',
-      content: "Sorry, I'm having trouble connecting. Please try again later."
+      content: getFallbackResponse(userMessage)
     })
   } finally {
     isLoading.value = false
