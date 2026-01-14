@@ -23,8 +23,8 @@ const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY
 const getFallbackResponse = (userMessage: string): string => {
   const msg = userMessage.toLowerCase()
 
-  if (msg.includes('contact') || msg.includes('email') || msg.includes('hire') || msg.includes('reach') || msg.includes('available')) {
-    return "You can reach Sadi at saifullahsadi@hotmail.com. He's open to full-time, contract, and remote opportunities worldwide. You can also connect on LinkedIn: linkedin.com/in/xaifullahxady"
+  if (msg.includes('contact') || msg.includes('email') || msg.includes('hire') || msg.includes('reach') || msg.includes('available') || msg.includes('whatsapp') || msg.includes('phone') || msg.includes('call')) {
+    return "You can reach Sadi via:\n- Email: saifullahsadi@hotmail.com\n- WhatsApp: +92 336 6633644\n- LinkedIn: linkedin.com/in/xaifullahxady\n\nHe's open to full-time, contract, and remote opportunities worldwide!"
   }
   if (msg.includes('skill') || msg.includes('tech') || msg.includes('stack') || msg.includes('language')) {
     return "Sadi's technical skills include: C#, TypeScript, JavaScript, Python | Unity3D (10 years), Vue.js, React, Node.js | CesiumJS, OpenLayers, 3D Tiles | Git, Docker, AWS, Firebase. He's experienced with Steam, Google Play, App Store, and more platforms."
@@ -150,6 +150,7 @@ Open to full-time, contract, and remote opportunities worldwide
 
 CONTACT:
 - Email: saifullahsadi@hotmail.com
+- WhatsApp: +92 336 6633644
 - GitHub: github.com/Xaifullah
 - LinkedIn: linkedin.com/in/xaifullahxady
 - Location: Pakistan
@@ -275,7 +276,7 @@ const toggleChat = () => {
           <div class="chat-header-info">
             <div class="chat-avatar">SS</div>
             <div>
-              <div class="chat-title">Sadi's Assistant</div>
+              <div class="chat-title">Saifullah Sadi</div>
               <div class="chat-status">Ask me anything!</div>
             </div>
           </div>
