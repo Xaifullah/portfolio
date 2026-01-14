@@ -183,11 +183,25 @@ const sendMessage = async () => {
   isLoading.value = true
   await scrollToBottom()
 
+  // If no API key, use fallback immediately
+  if (!GROQ_API_KEY) {
+    messages.value.push({
+      role: 'assistant',
+      content: getFallbackResponse(userMessage)
+    })
+    isLoading.value = false
+    await scrollToBottom()
+    return
+  }
+
   try {
-    const conversationHistory = messages.value.map(msg => ({
-      role: msg.role,
-      content: msg.content
-    }))
+    // Only include user messages in history (not the initial assistant greeting)
+    const conversationHistory = messages.value
+      .filter((_, index) => index > 0) // Skip initial greeting
+      .map(msg => ({
+        role: msg.role,
+        content: msg.content
+      }))
 
     const response = await fetch(
       'https://api.groq.com/openai/v1/chat/completions',
@@ -211,6 +225,10 @@ const sendMessage = async () => {
         })
       }
     )
+
+    if (!response.ok) {
+      throw new Error(`API error: ${response.status}`)
+    }
 
     const data = await response.json()
 
