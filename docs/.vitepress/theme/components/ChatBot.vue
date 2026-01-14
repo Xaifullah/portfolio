@@ -18,7 +18,7 @@ const messages = ref<Message[]>([
   }
 ])
 
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY
 
 const getFallbackResponse = (userMessage: string): string => {
   const msg = userMessage.toLowerCase()
@@ -58,6 +58,9 @@ const getFallbackResponse = (userMessage: string): string => {
   }
   if (msg.includes('cv') || msg.includes('resume') || msg.includes('download')) {
     return "You can download Sadi's full CV/Resume by clicking the 'Download CV' button in the website header. It includes detailed information about his experience, skills, and projects."
+  }
+  if (msg.includes('certif') || msg.includes('course') || msg.includes('credential') || msg.includes('google ai')) {
+    return "Sadi holds a Google AI Essentials certification from Coursera (November 2024), completed with 80%+ score. You can verify it at: https://www.credly.com/go/5SB7Z39c. He's also actively learning MCP, AI Agentic Systems, and LLM Integration."
   }
   if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey') || msg.includes('what can you')) {
     return "Hello! I'm here to help you learn about Sadi. You can ask me about his skills, experience, projects, education, personality, hobbies, or how to contact him. What would you like to know?"
@@ -115,6 +118,10 @@ KEY PROJECTS:
 EDUCATION:
 Bachelor of Science in Computer Science | 3.45 CGPA | Pakistan
 
+CERTIFICATIONS:
+- Google AI Essentials (Coursera, November 2024) - Successfully completed with 80%+ score
+  View: https://www.credly.com/go/5SB7Z39c
+
 CURRENTLY LEARNING:
 - MCP (Model Context Protocol)
 - AI Agentic Systems
@@ -155,6 +162,7 @@ CONTACT:
 - If asked about personality or work style, highlight his friendly nature, problem-solving skills, and collaborative mindset
 - If asked about hobbies or interests, share his passion for adventure motorcycle riding in northern Pakistan
 - If asked about education, mention BS in Computer Science with 3.45 CGPA
+- If asked about certifications, mention Google AI Essentials from Coursera (Nov 2024) and provide the Credly link
 - If asked about specific technologies, refer to the technical skills section
 - If you don't know something specific not covered in the CV, say so politely
 - Visitors can download the full CV from the website header`
@@ -177,41 +185,37 @@ const sendMessage = async () => {
 
   try {
     const conversationHistory = messages.value.map(msg => ({
-      role: msg.role === 'user' ? 'user' : 'model',
-      parts: [{ text: msg.content }]
+      role: msg.role,
+      content: msg.content
     }))
 
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`,
+      'https://api.groq.com/openai/v1/chat/completions',
       {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${GROQ_API_KEY}`,
         },
         body: JSON.stringify({
-          contents: [
+          model: 'llama-3.3-70b-versatile',
+          messages: [
             {
-              role: 'user',
-              parts: [{ text: SYSTEM_PROMPT }]
-            },
-            {
-              role: 'model',
-              parts: [{ text: 'Understood! I am ready to help visitors learn about Safiullah Sadi.' }]
+              role: 'system',
+              content: SYSTEM_PROMPT
             },
             ...conversationHistory
           ],
-          generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 500,
-          }
+          temperature: 0.7,
+          max_tokens: 500,
         })
       }
     )
 
     const data = await response.json()
 
-    if (data.candidates && data.candidates[0]?.content?.parts?.[0]?.text) {
-      const assistantMessage = data.candidates[0].content.parts[0].text
+    if (data.choices && data.choices[0]?.message?.content) {
+      const assistantMessage = data.choices[0].message.content
       messages.value.push({ role: 'assistant', content: assistantMessage })
     } else {
       // API error or no response - use fallback
