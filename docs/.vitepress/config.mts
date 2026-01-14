@@ -22,7 +22,13 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Projects', link: '/projects' },
       { text: 'Skills', link: '/skills' },
-      { text: 'Contact', link: '/contact' }
+      { text: 'Contact', link: '/contact' },
+      {
+        text: 'Download CV',
+        link: '/portfolio/Safiullah_Sadi_CV.pdf',
+        target: '_blank',
+        rel: 'noopener'
+      }
     ],
 
     socialLinks: [

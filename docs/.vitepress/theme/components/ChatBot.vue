@@ -38,11 +38,20 @@ const getFallbackResponse = (userMessage: string): string => {
   if (msg.includes('project')) {
     return "Notable projects include: Maians (3D Avatar Platform), defense planning & simulation systems, Unity Terrain Generator plugin, and 100+ published games. Check out the Projects page for more details!"
   }
+  if (msg.includes('hobby') || msg.includes('hobbies') || msg.includes('interest') || msg.includes('free time') || msg.includes('outside work')) {
+    return "Outside of work, Sadi is an adventure motorcycle rider! He loves touring the stunning northern areas of Pakistan on his bike and is a proud member of the Pakistani biker community. It's a passion that fuels his adventurous spirit!"
+  }
+  if (msg.includes('personality') || msg.includes('character') || msg.includes('attitude') || msg.includes('person') || msg.includes('like to work') || msg.includes('team')) {
+    return "Sadi is friendly, positive, and a great team player. He's known for his problem-solving mindset and analytical thinking. He brings a can-do attitude to every project and enjoys collaborating with others to find creative solutions."
+  }
+  if (msg.includes('motorcycle') || msg.includes('bike') || msg.includes('riding') || msg.includes('biker')) {
+    return "Sadi is an adventure motorcycle enthusiast! He regularly tours the beautiful northern areas of Pakistan and is an active member of the Pakistani biker community. The open road is where he finds inspiration and adventure!"
+  }
   if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey')) {
-    return "Hello! I'm here to help you learn about Sadi's work and experience. Feel free to ask about his skills, projects, or how to get in touch!"
+    return "Hello! I'm here to help you learn about Sadi's work and experience. Feel free to ask about his skills, projects, personality, or how to get in touch!"
   }
 
-  return "Thanks for your interest! Sadi is a Full-Stack Engineer with 10+ years of experience in game development, geospatial systems, and web development. Feel free to reach out at saifullahsadi@hotmail.com for more details!"
+  return "Thanks for your interest! Sadi is a Full-Stack Engineer with 10+ years of experience in game development, geospatial systems, and web development. He's also an adventure motorcycle rider and a friendly, positive team player. Feel free to reach out at saifullahsadi@hotmail.com for more details!"
 }
 
 const SYSTEM_PROMPT = `You are a friendly and professional AI assistant for Safiullah Sadi's portfolio website. Your role is to help visitors and recruiters learn about Sadi's experience and skills.
@@ -80,6 +89,18 @@ Currently Learning:
 - AI Agentic Systems
 - LLM Integration
 
+Personality & Work Style:
+- Friendly and positive nature in the workplace
+- Excellent problem solver and analytical thinker
+- Great team player who enjoys collaboration
+- Brings a can-do attitude to every project
+
+Hobbies & Interests:
+- Adventure motorcycle rider
+- Regularly tours the northern areas of Pakistan on motorcycle
+- Active and proud member of the Pakistani biker community
+- Loves exploring new places and the thrill of the open road
+
 Contact: saifullahsadi@hotmail.com
 GitHub: github.com/Xaifullah
 LinkedIn: linkedin.com/in/xaifullahxady
@@ -88,8 +109,10 @@ Instructions:
 - Be concise but informative
 - Be friendly and professional
 - If asked about hiring, availability, or contact, provide the email
+- If asked about personality, character, or work style, highlight his friendly nature and problem-solving skills
+- If asked about hobbies or interests, share his passion for adventure motorcycle riding
 - If you don't know something specific, say so politely
-- Keep responses focused on Sadi's professional experience`
+- Keep responses focused on Sadi's professional and personal qualities`
 
 const scrollToBottom = async () => {
   await nextTick()
