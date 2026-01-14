@@ -18,7 +18,7 @@ const messages = ref<Message[]>([
   }
 ])
 
-const GEMINI_API_KEY = 'AIzaSyDNpJ2ZOdYJkXKs1xZypXoTc9n0wNWspV8'
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
 
 const SYSTEM_PROMPT = `You are a friendly and professional AI assistant for Safiullah Sadi's portfolio website. Your role is to help visitors and recruiters learn about Sadi's experience and skills.
 
