@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, nextTick, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 
 const isOpen = ref(false)
 const message = ref('')
@@ -44,6 +45,12 @@ const getFallbackResponse = (userMessage: string): string => {
   if (msg.includes('geospatial') || msg.includes('gis') || msg.includes('map') || msg.includes('cesium') || msg.includes('terrain')) {
     return "I've built Defense Planning & 3D Simulation Systems, Unity Terrain Generator Plugin, Line of Sight and Viewshed Analysis tools, and Dual-Map systems using CesiumJS and OpenLayers."
   }
+  if (msg.includes('ai') || msg.includes('claude') || msg.includes('cursor') || msg.includes('artificial intelligence') || msg.includes('llm') || msg.includes('ai-driven') || msg.includes('ai driven')) {
+    return "I use Claude and Cursor IDE for AI-driven development in my web and geospatial projects. This helps me architect scalable solutions faster and deliver 2-3x quicker while maintaining high code quality. My game development work (100+ games) was done before AI tools - that's 10 years of pure hands-on experience!"
+  }
+  if (msg.includes('flutter') || msg.includes('mobile app') || msg.includes('dart')) {
+    return "I'm currently building a Flutter app for event management and group coordination. It's a personal project using AI-driven development with Claude and Cursor for rapid prototyping. The app features event creation, group communication, and real-time notifications."
+  }
   if (msg.includes('web') || msg.includes('frontend') || msg.includes('backend') || msg.includes('vue') || msg.includes('react')) {
     return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include Maians (3D Avatar Platform) and Crib & Condo (Virtua Metaverse)."
   }
@@ -76,12 +83,23 @@ const SYSTEM_PROMPT = `You ARE Safiullah Sadi. Respond in FIRST PERSON as yourse
 I'm a Full-Stack Software Engineer with 10+ years of experience in game development, geospatial systems, and web applications. I've published 100+ games and contributed to 300+ projects across Android, iOS, PC (Steam), Amazon, and Huawei AppGallery.
 
 MY SKILLS:
-- Languages: C#, TypeScript, JavaScript, Python, SQL, HTML5, CSS3
+- Languages: C#, TypeScript, JavaScript, Python, SQL, HTML5, CSS3, Dart
 - Game Dev: Unity3D (10 years), Game Physics, AI/NPC Systems
 - Frontend: Vue.js, React.js, VitePress, Tailwind CSS
 - Backend: Node.js, Express.js, REST APIs, Firebase
 - Geospatial: CesiumJS, OpenLayers, 3D Tiles, GIS, Terrain Generation
+- AI-Driven Dev: Claude (Anthropic), Cursor IDE, AI Pair Programming, Prompt Engineering
+- Mobile: Flutter, Dart, Firebase
 - Tools: Git, Docker, AWS, Steam, Google Play, App Store
+
+AI-DRIVEN DEVELOPMENT WORKFLOW:
+I use Claude and Cursor IDE as my AI development partners for web and geospatial projects. This AI-augmented approach helps me:
+- Architect scalable solutions faster
+- Write cleaner, more maintainable code
+- Deliver projects 2-3x faster than traditional development
+- Maintain high code quality with AI-assisted review
+
+Note: My game development work (100+ published games) was done before AI tools - that's pure hands-on expertise built over 10 years.
 
 MY EXPERIENCE (2014 - Present):
 Senior Game Developer & Full-Stack Engineer | Pakistan (Remote)
@@ -104,16 +122,17 @@ Game Development:
 - Created reusable Unity plugins reducing dev time by 40%
 
 MY KEY PROJECTS:
-1. Geospatial Visualization Platform - Interactive 2D/3D mapping with analysis tools
+1. Geospatial Visualization Platform - Interactive 2D/3D mapping with analysis tools (Built with AI)
 2. Unity Terrain Generator Plugin - Real-world terrain from elevation data
 3. Maians - 3D Avatar Platform with cross-platform SDK
 4. FPS Game Development Kit - Foundation for 10+ published games
+5. Flutter Event & Group Platform - Cross-platform mobile app for event management (In Progress, Built with AI)
 
 EDUCATION: BS in Computer Science | 3.45 CGPA
 
 CERTIFICATIONS: Google AI Essentials (Coursera, Nov 2024) - credly.com/go/5SB7Z39c
 
-CURRENTLY LEARNING: MCP, AI Agentic Systems, LLM Integration
+CURRENTLY LEARNING: Claude Code, Cursor IDE, MCP (Model Context Protocol), AI Agentic Systems, LLM Integration, Flutter Development
 
 MY HOBBIES: Adventure motorcycle touring in northern Pakistan. I'm an active member of the Pakistani biker community.
 
@@ -238,7 +257,7 @@ const toggleChat = () => {
       <div v-if="isOpen" class="chat-window">
         <div class="chat-header">
           <div class="chat-header-info">
-            <div class="chat-avatar">SS</div>
+            <img :src="withBase('/favicon-48x48.png')" alt="Sadi" class="chat-avatar" />
             <div>
               <div class="chat-title">Saifullah Sadi</div>
               <div class="chat-status">Ask me anything!</div>
@@ -382,11 +401,8 @@ const toggleChat = () => {
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 14px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .chat-title {
@@ -556,8 +572,44 @@ const toggleChat = () => {
   transform: translateY(20px) scale(0.95);
 }
 
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+  .chat-window {
+    width: 340px;
+    height: 450px;
+  }
+
+  .chat-header {
+    padding: 14px;
+  }
+
+  .chat-avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .chat-title {
+    font-size: 15px;
+  }
+
+  .message-content {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .chat-input {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .chat-send {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 /* Mobile responsiveness */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .chatbot-container {
     bottom: 16px;
     right: 16px;
@@ -565,14 +617,130 @@ const toggleChat = () => {
 
   .chat-window {
     width: calc(100vw - 32px);
-    height: calc(100vh - 100px);
+    height: calc(100vh - 120px);
+    max-height: 500px;
     bottom: 65px;
     right: -8px;
+    border-radius: 12px;
   }
 
   .chat-toggle {
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .chat-toggle svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .chat-header {
+    padding: 12px;
+  }
+
+  .chat-avatar {
+    width: 34px;
+    height: 34px;
+  }
+
+  .chat-title {
+    font-size: 14px;
+  }
+
+  .chat-status {
+    font-size: 11px;
+  }
+
+  .chat-close {
+    width: 28px;
+    height: 28px;
+  }
+
+  .chat-messages {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .chat-message {
+    max-width: 90%;
+  }
+
+  .message-content {
+    padding: 10px 12px;
+    font-size: 13px;
+    border-radius: 14px;
+  }
+
+  .chat-input-container {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .chat-input {
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .chat-send {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+  }
+
+  .chat-send svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 400px) {
+  .chatbot-container {
+    bottom: 12px;
+    right: 12px;
+  }
+
+  .chat-window {
+    width: calc(100vw - 24px);
+    height: calc(100vh - 100px);
+    max-height: 450px;
+    bottom: 60px;
+    right: -6px;
+  }
+
+  .chat-toggle {
+    width: 48px;
+    height: 48px;
+  }
+
+  .chat-header-info {
+    gap: 8px;
+  }
+
+  .chat-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .chat-title {
+    font-size: 13px;
+  }
+
+  .message-content {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .chat-input {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .chat-send {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
   }
 }
 </style>

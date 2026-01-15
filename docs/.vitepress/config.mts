@@ -6,15 +6,19 @@ export default defineConfig({
   base: '/portfolio/',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/portfolio/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/portfolio/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/portfolio/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/portfolio/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Safiullah Sadi - Full-Stack Software Engineer' }],
     ['meta', { property: 'og:description', content: '10+ years experience in Unity game development, full-stack web development, and geospatial simulation systems' }],
+    ['meta', { property: 'og:image', content: '/portfolio/android-chrome-512x512.png' }],
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     siteTitle: 'Safiullah Sadi',
 
     nav: [

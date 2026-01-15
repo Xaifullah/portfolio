@@ -7,11 +7,15 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": ["portfolio", "vitepress"],
+  "keywords": [
+    "portfolio",
+    "vitepress"
+  ],
   "author": "Saifullah Sadi",
   "license": "MIT",
   "description": "Professional portfolio for Saifullah Sadi",
   "devDependencies": {
+    "sharp": "^0.34.5",
     "vitepress": "^1.6.4"
   }
 }

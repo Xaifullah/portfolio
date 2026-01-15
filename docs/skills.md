@@ -84,18 +84,29 @@ A comprehensive overview of my technical expertise across game development, full
       <span class="skill-item">Mission Planning Systems</span>
     </div>
   </div>
+
+  <div class="skill-category" style="border-left: 3px solid #8b5cf6;">
+    <h3>AI-Driven Development</h3>
+    <div class="skill-list">
+      <span class="skill-item">Claude (Anthropic)</span>
+      <span class="skill-item">Cursor IDE</span>
+      <span class="skill-item">AI Pair Programming</span>
+      <span class="skill-item">Prompt Engineering</span>
+      <span class="skill-item">AI Code Review</span>
+    </div>
+  </div>
 </div>
 
 ---
 
 ## Technology Matrix
 
-| **Game Development** | **Full-Stack Development** | **Geospatial & Simulation** |
-| --- | --- | --- |
-| Unity3D / C# | React.js / Vue.js | CesiumJS (3D) |
-| WebGL / Mobile / PC | Node.js / Express.js | OpenLayers (2D) |
-| Avatar Systems (SDKs) | TypeScript / JavaScript | Spatial Analysis (LoS/Viewshed) |
-| Real-time Rendering | RESTful APIs / Docker | 3D Data Streaming (3DTiles) |
+| **Game Development** | **Full-Stack Development** | **Geospatial & Simulation** | **AI-Driven Development** |
+| --- | --- | --- | --- |
+| Unity3D / C# | React.js / Vue.js | CesiumJS (3D) | Claude (Anthropic) |
+| WebGL / Mobile / PC | Node.js / Express.js | OpenLayers (2D) | Cursor IDE |
+| Avatar Systems (SDKs) | TypeScript / JavaScript | Spatial Analysis (LoS/Viewshed) | AI Pair Programming |
+| Real-time Rendering | RESTful APIs / Docker | 3D Data Streaming (3DTiles) | Prompt Engineering |
 
 ---
 

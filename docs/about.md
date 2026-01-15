@@ -42,13 +42,37 @@ I'm **Safiullah Sadi**, a software engineer with a decade of experience bridging
 
 ---
 
+## AI-Augmented Development Workflow
+
+<div class="ai-workflow-about">
+
+I've integrated AI tools into my development process to deliver higher-quality software faster. Using **Claude** for architecture decisions and **Cursor IDE** for AI-assisted coding, I've transformed how I approach complex projects in web and geospatial development.
+
+**How AI Enhances My Work:**
+- **Architecture Planning**: Claude helps evaluate design patterns and trade-offs for scalable systems
+- **Code Generation**: Cursor accelerates boilerplate and repetitive code
+- **Code Review**: AI catches potential issues before they become bugs
+- **Documentation**: Auto-generated documentation keeps projects maintainable
+
+**The Human + AI Advantage:**
+My 10+ years of experience combined with AI assistance means I can deliver production-ready code 2-3x faster, maintain consistent code quality across large codebases, and focus on creative problem-solving while AI handles routine tasks.
+
+*Note: I apply AI-driven development to my web and geospatial work. My game development expertise (100+ published games) was built before these tools existed - that's 10 years of pure hands-on experience.*
+
+</div>
+
+---
+
 ## Currently Exploring
 
 I'm always expanding my expertise. Currently diving deep into:
 
+- **Claude Code** - CLI-based AI development workflows for terminal-first productivity
+- **Cursor IDE** - AI-first code editor with deep codebase understanding
 - **MCP (Model Context Protocol)** - Building integrations for AI-powered development tools
 - **AI Agentic Systems** - Exploring autonomous agent architectures and multi-agent workflows
 - **LLM Integration** - Connecting large language models with real-world applications
+- **Flutter Development** - Building cross-platform mobile apps (personal project in progress)
 
 ---
 

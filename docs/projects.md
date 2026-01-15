@@ -4,13 +4,53 @@
 
 Here are some of the key projects I've worked on, spanning geospatial systems, web development, and game development.
 
+## AI-Driven Development
+
+<div class="ai-workflow-section">
+
+## My AI Development Workflow
+
+I've embraced AI-assisted development as a core part of my workflow, using **Claude** and **Cursor IDE** to accelerate development while maintaining high code quality. This approach enables faster delivery of scalable, production-ready solutions.
+
+- **Faster Architecture Decisions** - AI helps evaluate trade-offs and suggest scalable patterns
+- **Rapid Prototyping** - Transform ideas into working code in hours instead of days
+- **Code Quality** - AI-assisted code review catches issues early
+- **Documentation** - Auto-generated docs and inline comments
+
+<div class="ai-tools-grid">
+  <div class="ai-tool-card">
+    <div class="tool-icon">🧠</div>
+    <div class="tool-name">Claude</div>
+    <div class="tool-desc">Architecture & Problem Solving</div>
+  </div>
+  <div class="ai-tool-card">
+    <div class="tool-icon">⚡</div>
+    <div class="tool-name">Cursor IDE</div>
+    <div class="tool-desc">AI-Powered Code Editor</div>
+  </div>
+  <div class="ai-tool-card">
+    <div class="tool-icon">🚀</div>
+    <div class="tool-name">Faster Delivery</div>
+    <div class="tool-desc">2-3x Development Speed</div>
+  </div>
+  <div class="ai-tool-card">
+    <div class="tool-icon">🏗️</div>
+    <div class="tool-name">Scalable Code</div>
+    <div class="tool-desc">AI-Reviewed Architecture</div>
+  </div>
+</div>
+
+</div>
+
 ## Geospatial & 3D Simulation
 
 <div class="project-card">
 
+<span class="ai-badge">Built with AI</span>
+
 ### Defense Planning & 3D Simulation Systems
 
-Developed comprehensive planning software for complex spatial environments and defense-grade operations. This system enables real-time tactical monitoring and advanced spatial analysis for mission-critical applications.
+Developed comprehensive planning software for complex spatial environments and defense-grade operations using AI-driven development workflow. This system enables real-time tactical monitoring and advanced spatial analysis for mission-critical applications.
 
 **Key Features:**
 - Real-time 3D terrain rendering with tactical data overlays
@@ -25,6 +65,7 @@ Developed comprehensive planning software for complex spatial environments and d
   <span class="tech-badge">TypeScript</span>
   <span class="tech-badge">Node.js</span>
   <span class="tech-badge">3D Tiles</span>
+  <span class="tech-badge">Claude + Cursor</span>
 </div>
 
 </div>
@@ -99,6 +140,43 @@ Built immersive virtual social spaces enabling real-time exploration and interac
 </div>
 
 [Visit Virtua Metaverse →](https://virtua.com/metaverse)
+
+</div>
+
+## Mobile Development
+
+<div class="project-card in-progress">
+
+<span class="ai-badge">Built with AI</span>
+
+### Event & Group Platform (Flutter)
+
+Building a cross-platform mobile application for event management and group coordination. This personal project leverages AI-driven development with Claude and Cursor for rapid prototyping and scalable architecture design.
+
+**Key Features:**
+- Event creation and management with rich media support
+- Group coordination and real-time communication
+- Push notifications and event reminders
+- Cross-platform iOS and Android support
+- Clean architecture with scalable patterns
+
+<div class="tech-stack">
+  <span class="tech-badge">Flutter</span>
+  <span class="tech-badge">Dart</span>
+  <span class="tech-badge">Node</span>
+  <span class="tech-badge">Express</span>
+  <span class="tech-badge">PostgreSQL</span>
+  <span class="tech-badge">AWS Bucket</span>
+  <span class="tech-badge">Google Maps</span>
+  <span class="tech-badge">GCP</span>
+  <span class="tech-badge">Gemini</span>
+  <span class="tech-badge">Docker</span>
+  <span class="tech-badge">GitHub</span>
+  <span class="tech-badge">Claude</span>
+  <span class="tech-badge">Cursor</span>
+</div>
+
+*Personal project - In active development*
 
 </div>
 

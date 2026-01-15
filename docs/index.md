@@ -3,8 +3,11 @@ layout: home
 
 hero:
   name: "Safiullah Sadi"
-  text: "Full-Stack Software Engineer"
+  text: "AI-Driven Full-Stack Software Engineer"
   tagline: Game Developer | Geospatial & Real-Time Simulation Specialist
+  image:
+    src: /profile_removed_bg.png
+    alt: Safiullah Sadi
   actions:
     - theme: brand
       text: View Projects
@@ -77,6 +80,7 @@ I architect scalable solutions that transform complex spatial data into interact
       &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Unity3D"</span>, <span class="string">"Vue.js"</span>,<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"React"</span>, <span class="string">"CesiumJS"</span><br>
       &nbsp;&nbsp;],<br>
+      &nbsp;&nbsp;<span class="variable">aiTools</span>: [<span class="string">"Claude"</span>, <span class="string">"Cursor"</span>],<br>
       &nbsp;&nbsp;<span class="function">buildAwesome</span>: () <span class="keyword">=></span> <span class="keyword">true</span><br>
       };<span class="typing-cursor"></span>
     </div>
@@ -158,6 +162,17 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">GCP</span>
     </div>
   </div>
+
+  <div class="tech-card">
+    <div class="tech-card-header">
+      <span class="icon">🤖</span> AI-Driven Dev
+    </div>
+    <div class="tech-badges">
+      <span class="tech-badge">Claude</span>
+      <span class="tech-badge">Cursor IDE</span>
+      <span class="tech-badge">AI Pair Programming</span>
+    </div>
+  </div>
 </div>
 
 </div>
@@ -166,6 +181,7 @@ I architect scalable solutions that transform complex spatial data into interact
 
 <div class="projects-showcase">
   <div class="project-mini-card">
+    <span class="ai-badge">Built with AI</span>
     <h4>Geospatial Visualization Platform</h4>
     <p>Interactive 2D/3D mapping with Line of Sight and Viewshed analysis tools</p>
     <div class="tech-stack">
