@@ -180,6 +180,40 @@ Building a cross-platform mobile application for event management and group coor
 
 </div>
 
+## Data Engineering
+
+<div class="project-card in-progress">
+
+<span class="ai-badge">Built with AI</span>
+
+### Data Engineer - CSV Analysis Platform
+
+A React-based CSV analysis and visualization tool with intelligent data cleaning capabilities. Built for data professionals who need quick insights from tabular data without complex setup.
+
+**Key Features:**
+- CSV file upload and parsing with auto-detection
+- Interactive data table with sorting and filtering
+- Data visualization (Bar, Line, Pie, Scatter charts)
+- Geospatial mapping with Leaflet integration
+- Auto-clean system with preview and undo functionality
+- Data quality analysis and profiling
+
+<div class="tech-stack">
+  <span class="tech-badge">React 18</span>
+  <span class="tech-badge">Vite</span>
+  <span class="tech-badge">Tailwind CSS</span>
+  <span class="tech-badge">Chart.js</span>
+  <span class="tech-badge">Leaflet</span>
+  <span class="tech-badge">Axios</span>
+  <span class="tech-badge">Claude + Cursor</span>
+</div>
+
+[View on GitHub →](https://github.com/Xaifullah/data-engineer-frontend)
+
+*Personal project - In active development*
+
+</div>
+
 ## Unity3d Game Development
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; justify-content: center;">

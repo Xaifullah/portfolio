@@ -37,7 +37,7 @@ const getFallbackResponse = (userMessage: string): string => {
     return "I'm a Senior Game Developer & Full-Stack Engineer with 10+ years of experience (2014 - Present). I specialize in game development, geospatial/3D simulation systems, and full-stack web development."
   }
   if (msg.includes('project')) {
-    return "My key projects: 1) Geospatial Visualization Platform - 2D/3D mapping with analysis tools, 2) Unity Terrain Generator Plugin, 3) Maians - 3D Avatar Platform, 4) FPS Game Kit - foundation for 10+ published games."
+    return "My key projects: 1) Geospatial Visualization Platform - 2D/3D mapping with analysis tools, 2) Unity Terrain Generator Plugin, 3) Maians - 3D Avatar Platform, 4) FPS Game Kit - foundation for 10+ published games, 5) Data Engineer Platform - CSV analysis and visualization tool, 6) Flutter Event & Group Platform (in progress)."
   }
   if (msg.includes('education') || msg.includes('degree') || msg.includes('study') || msg.includes('university') || msg.includes('cgpa') || msg.includes('gpa')) {
     return "I have a BS in Computer Science with 3.45 CGPA. I'm currently learning MCP, AI Agentic Systems, and LLM Integration."
@@ -48,11 +48,14 @@ const getFallbackResponse = (userMessage: string): string => {
   if (msg.includes('ai') || msg.includes('claude') || msg.includes('cursor') || msg.includes('artificial intelligence') || msg.includes('llm') || msg.includes('ai-driven') || msg.includes('ai driven')) {
     return "I use Claude and Cursor IDE for AI-driven development in my web and geospatial projects. This helps me architect scalable solutions faster and deliver 2-3x quicker while maintaining high code quality. My game development work (100+ games) was done before AI tools - that's 10 years of pure hands-on experience!"
   }
+  if (msg.includes('data engineer') || msg.includes('csv') || msg.includes('data analysis') || msg.includes('data cleaning') || msg.includes('chart') || msg.includes('visualization')) {
+    return "I built a Data Engineer Platform - a React-based CSV analysis and visualization tool. It features CSV upload/parsing, interactive data tables, multiple chart types (Bar, Line, Pie, Scatter), geospatial mapping with Leaflet, and an auto-clean system with undo. Built with React 18, Vite, Tailwind CSS, Chart.js, and Leaflet. Check it out on GitHub: github.com/Xaifullah/data-engineer-frontend"
+  }
   if (msg.includes('flutter') || msg.includes('mobile app') || msg.includes('dart')) {
     return "I'm currently building a Flutter app for event management and group coordination. It's a personal project using AI-driven development with Claude and Cursor for rapid prototyping. The app features event creation, group communication, and real-time notifications."
   }
   if (msg.includes('web') || msg.includes('frontend') || msg.includes('backend') || msg.includes('vue') || msg.includes('react')) {
-    return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include Maians (3D Avatar Platform) and Crib & Condo (Virtua Metaverse)."
+    return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include Maians (3D Avatar Platform), Crib & Condo (Virtua Metaverse), and Data Engineer Platform (React-based CSV analysis tool)."
   }
   if (msg.includes('hobby') || msg.includes('hobbies') || msg.includes('interest') || msg.includes('free time') || msg.includes('outside work')) {
     return "I'm an adventure motorcycle rider! I love touring the northern areas of Pakistan and I'm a proud member of the Pakistani biker community."
@@ -113,6 +116,7 @@ Geospatial & 3D Simulation:
 Web Development:
 - Maians (maians.io): 3D Avatar Platform with cross-platform SDK
 - Crib & Condo (Virtua Metaverse): Social 3D environments
+- Data Engineer Platform: React-based CSV analysis and visualization tool
 - Built full-stack apps with Vue.js/React and Node.js
 
 Game Development:
@@ -127,6 +131,7 @@ MY KEY PROJECTS:
 3. Maians - 3D Avatar Platform with cross-platform SDK
 4. FPS Game Development Kit - Foundation for 10+ published games
 5. Flutter Event & Group Platform - Cross-platform mobile app for event management (In Progress, Built with AI)
+6. Data Engineer Platform - CSV analysis tool with data visualization, geospatial mapping, and auto-clean system (Built with AI)
 
 EDUCATION: BS in Computer Science | 3.45 CGPA
 

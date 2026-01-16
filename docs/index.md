@@ -217,6 +217,16 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">AI Systems</span>
     </div>
   </div>
+  <div class="project-mini-card">
+    <span class="ai-badge">Built with AI</span>
+    <h4>Data Engineer Platform</h4>
+    <p>CSV analysis tool with data visualization, geospatial mapping, and auto-clean system</p>
+    <div class="tech-stack">
+      <span class="tech-badge">React</span>
+      <span class="tech-badge">Chart.js</span>
+      <span class="tech-badge">Leaflet</span>
+    </div>
+  </div>
 </div>
 
 [View All Projects →](/projects)
