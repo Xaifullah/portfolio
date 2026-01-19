@@ -4,7 +4,7 @@
 
 ## Who I Am
 
-I'm **Safiullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies. I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
+I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies. I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
 
 ---
 

@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: "Safiullah Sadi"
+  name: "Saifullah Sadi"
   text: "AI-Driven Full-Stack Software Engineer"
   tagline: Game Developer | Geospatial & Real-Time Simulation Specialist
   image:
     src: /profile_removed_bg.png
-    alt: Safiullah Sadi
+    alt: Saifullah Sadi
   actions:
     - theme: brand
       text: View Projects
       link: /projects
     - theme: alt
       text: Download CV
-      link: /portfolio/Safiullah_Sadi_CV.pdf
+      link: /portfolio/Saifullah_Sadi_CV.pdf
     - theme: alt
       text: Contact Me
       link: /contact
@@ -59,7 +59,7 @@ features:
 
 ## About Me
 
-I'm **Safiullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies.
+I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies.
 
 I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
 
@@ -73,7 +73,7 @@ I architect scalable solutions that transform complex spatial data into interact
     </div>
     <div class="code-content">
       <span class="keyword">const</span> <span class="variable">developer</span> <span class="operator">=</span> {<br>
-      &nbsp;&nbsp;<span class="variable">name</span>: <span class="string">"Safiullah Sadi"</span>,<br>
+      &nbsp;&nbsp;<span class="variable">name</span>: <span class="string">"Saifullah Sadi"</span>,<br>
       &nbsp;&nbsp;<span class="variable">role</span>: <span class="string">"Full-Stack Engineer"</span>,<br>
       &nbsp;&nbsp;<span class="variable">experience</span>: <span class="number">10</span>,<br>
       &nbsp;&nbsp;<span class="variable">skills</span>: [<br>
@@ -260,7 +260,7 @@ I architect scalable solutions that transform complex spatial data into interact
 <!-- CTA Section -->
 <div class="cta-section">
   <a href="/portfolio/projects" class="cta-button primary">View All Projects</a>
-  <a href="/portfolio/Safiullah_Sadi_CV.pdf" target="_blank" class="cta-button secondary">Download CV</a>
+  <a href="/portfolio/Saifullah_Sadi_CV.pdf" target="_blank" class="cta-button secondary">Download CV</a>
   <a href="/portfolio/contact" class="cta-button secondary">Contact Me</a>
 </div>
 

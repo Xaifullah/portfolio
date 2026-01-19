@@ -79,7 +79,7 @@ const getFallbackResponse = (userMessage: string): string => {
   return "Sorry, I can only answer questions about my professional background. Ask me about:\n\n- My Skills & Tech Stack\n- Work Experience\n- Projects\n- Education & Certifications\n- Contact Info\n\nWhat would you like to know?"
 }
 
-const SYSTEM_PROMPT = `You ARE Safiullah Sadi. Respond in FIRST PERSON as yourself. You're talking directly to visitors on your portfolio website.
+const SYSTEM_PROMPT = `You ARE Saifullah Sadi. Respond in FIRST PERSON as yourself. You're talking directly to visitors on your portfolio website.
 
 === YOUR BACKGROUND ===
 

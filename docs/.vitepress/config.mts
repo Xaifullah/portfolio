@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Safiullah Sadi",
+  title: "Saifullah Sadi",
   description: "Full-Stack Software Engineer | Game Developer | Geospatial & Real-Time Simulation Specialist",
   base: '/portfolio/',
 
@@ -12,14 +12,14 @@ export default defineConfig({
     ['link', { rel: 'manifest', href: '/portfolio/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Safiullah Sadi - Full-Stack Software Engineer' }],
+    ['meta', { property: 'og:title', content: 'Saifullah Sadi - Full-Stack Software Engineer' }],
     ['meta', { property: 'og:description', content: '10+ years experience in Unity game development, full-stack web development, and geospatial simulation systems' }],
     ['meta', { property: 'og:image', content: '/portfolio/android-chrome-512x512.png' }],
   ],
 
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'Safiullah Sadi',
+    siteTitle: 'Saifullah Sadi',
 
     nav: [
       { text: 'Home', link: '/' },
@@ -29,7 +29,7 @@ export default defineConfig({
       { text: 'Contact', link: '/contact' },
       {
         text: 'Download CV',
-        link: '/portfolio/Safiullah_Sadi_CV.pdf',
+        link: '/portfolio/Saifullah_Sadi_CV.pdf',
         target: '_blank',
         rel: 'noopener'
       }
@@ -51,7 +51,7 @@ export default defineConfig({
 
     footer: {
       message: 'Build with love & AI',
-      copyright: 'Copyright 2026-present Safiullah Sadi'
+      copyright: 'Copyright 2026-present Saifullah Sadi'
     },
 
     search: {
