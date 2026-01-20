@@ -218,11 +218,11 @@ A React-based CSV analysis and visualization tool with intelligent data cleaning
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; justify-content: center;">
   <div style="text-align: center; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 12px; min-width: 150px;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">100+</div>
+    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">50+</div>
     <div style="color: var(--vp-c-text-2);">Developed & Published</div>
   </div>
   <div style="text-align: center; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 12px; min-width: 150px;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">300+</div>
+    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">100+</div>
     <div style="color: var(--vp-c-text-2);">Projects</div>
   </div>
   <div style="text-align: center; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 12px; min-width: 150px;">
@@ -330,7 +330,6 @@ Developed and shipped 100+ games from scratch across Android, iOS, and PC platfo
 
 </div>
 
----
 
 ## Want to Collaborate?
 

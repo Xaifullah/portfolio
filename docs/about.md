@@ -6,8 +6,6 @@
 
 I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies. I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
 
----
-
 ## Specialized Pillars of Expertise
 
 ### 1. Unity & Game Development
@@ -31,8 +29,6 @@ I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging
 - **Advanced Spatial Analysis**: Engineered custom tactical tools including **Line of Sight (LoS)**, **Viewshed Analysis**, and terrain profile calculation
 - **Simulation Systems**: Architecting **Dual-Map systems** with synchronized 2D/3D transitions for real-time tactical monitoring
 
----
-
 ## What Drives Me
 
 - **Innovation**: Pushing the boundaries of what's possible with real-time 3D and geospatial technology
@@ -40,7 +36,6 @@ I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging
 - **Cross-Domain Expertise**: Bridging game development, web technologies, and geospatial systems
 - **Performance**: Optimizing for the best user experience across all platforms
 
----
 
 ## AI-Augmented Development Workflow
 
@@ -61,7 +56,6 @@ My 10+ years of experience combined with AI assistance means I can deliver produ
 
 </div>
 
----
 
 ## Currently Exploring
 
@@ -82,11 +76,11 @@ I'm always expanding my expertise. Currently diving deep into:
     <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Years Experience</div>
   </div>
   <div style="text-align: center;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">100+</div>
+    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">50+</div>
     <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Games Published</div>
   </div>
   <div style="text-align: center;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">300+</div>
+    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">100+</div>
     <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Projects Completed</div>
   </div>
 </div>

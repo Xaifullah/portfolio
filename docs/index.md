@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Saifullah Sadi"
   text: "AI-Driven Full-Stack Software Engineer"
-  tagline: Game Developer | Geospatial & Real-Time Simulation Specialist
+  tagline: Game Developer | Geospatial & Real-Time Simulation
   image:
     src: /profile_removed_bg.png
     alt: Saifullah Sadi
@@ -25,10 +25,13 @@ features:
     details: 10 years of Unity3D expertise across WebGL, Mobile, and Desktop. Specialized in cross-platform SDKs, avatar systems, and real-time multiplayer networking.
   - icon: 💻
     title: Full-Stack Web Development
-    details: Professional-grade development with Vue.js, React.js, and TypeScript. Scalable backend solutions using Node.js and Express.js.
+    details: AI-Driven Professional-grade development with Vue.js, React.js, and TypeScript. Scalable backend solutions using Node.js and Express.js.
   - icon: 🌍
     title: Geospatial & 3D Simulation
-    details: Defense-grade GIS applications with CesiumJS and OpenLayers. Expert in tactical tools, terrain analysis, and large-scale 3D visualization.
+    details: AI-Driven Defense-grade GIS applications with CesiumJS and OpenLayers. Expert in tactical tools, terrain analysis, and large-scale 3D visualization.
+  - icon: 📱
+    title: Flutter App Development
+    details: AI-Driven cross-platform app development using Flutter. Developing personal idea projects for a special community.
 ---
 
 <div class="content-container">
@@ -40,11 +43,11 @@ features:
     <div class="stat-label">Years Experience</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">100+</div>
+    <div class="stat-number">50+</div>
     <div class="stat-label">Games Published</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">300+</div>
+    <div class="stat-number">100+</div>
     <div class="stat-label">Projects</div>
   </div>
   <div class="stat-card">
@@ -182,7 +185,7 @@ I architect scalable solutions that transform complex spatial data into interact
 <div class="projects-showcase">
   <div class="project-mini-card">
     <span class="ai-badge">Built with AI</span>
-    <h4>Geospatial Visualization Platform</h4>
+    <h4>Geospatial & Simulation Tool</h4>
     <p>Interactive 2D/3D mapping with Line of Sight and Viewshed analysis tools</p>
     <div class="tech-stack">
       <span class="tech-badge">CesiumJS</span>
@@ -191,42 +194,53 @@ I architect scalable solutions that transform complex spatial data into interact
     </div>
   </div>
   <div class="project-mini-card">
-    <h4>Unity Terrain Generator</h4>
-    <p>Plugin generating real-world terrains from elevation data with satellite textures</p>
-    <div class="tech-stack">
-      <span class="tech-badge">Unity3D</span>
-      <span class="tech-badge">C#</span>
-      <span class="tech-badge">REST APIs</span>
-    </div>
-  </div>
-  <div class="project-mini-card">
-    <h4>Maians - 3D Avatar Platform</h4>
-    <p>Web-based avatar creation with cross-platform SDK and real-time rendering</p>
-    <div class="tech-stack">
-      <span class="tech-badge">Vue.js</span>
-      <span class="tech-badge">Node.js</span>
-      <span class="tech-badge">WebGL</span>
-    </div>
-  </div>
-  <div class="project-mini-card">
-    <h4>FPS Game Development Kit</h4>
-    <p>Complete first-person shooter framework - foundation for 10+ published games</p>
-    <div class="tech-stack">
-      <span class="tech-badge">Unity3D</span>
-      <span class="tech-badge">C#</span>
-      <span class="tech-badge">AI Systems</span>
-    </div>
-  </div>
-  <div class="project-mini-card">
     <span class="ai-badge">Built with AI</span>
-    <h4>Data Engineer Platform</h4>
-    <p>CSV analysis tool with data visualization, geospatial mapping, and auto-clean system</p>
+    <h4>AI Data Engineer Tool</h4>
+    <p>CSV analysis tool with data visualization, geospatial mapping, and auto-clean system along with ai agentic integrations</p>
     <div class="tech-stack">
       <span class="tech-badge">React</span>
       <span class="tech-badge">Chart.js</span>
       <span class="tech-badge">Leaflet</span>
     </div>
   </div>
+    <div class="project-mini-card">
+    <span class="ai-badge">Built with AI</span>
+    <h4>Community App</h4>
+    <p>AI-Driven Cross-platform Flutter application featuring real-time location tracking and movement handling with live chat</p>
+    <div class="tech-stack">
+      <span class="tech-badge">React</span>
+      <span class="tech-badge">Chart.js</span>
+      <span class="tech-badge">Leaflet</span>
+    </div>
+  </div>
+  <div class="project-mini-card">
+    <h4>Unity Terrain Generator Tool</h4>
+    <p>Plugin generating real-world terrains from elevation data with satellite textures</p>
+    <div class="tech-stack">
+      <span class="tech-badge">C#</span>
+      <span class="tech-badge">Unity</span>
+      <span class="tech-badge">GIS</span>
+    </div>
+  </div>
+  <div class="project-mini-card">
+    <h4>3D Avatar Creator Tool</h4>
+    <p>Web-based 3d avatar creation with cross-platform SDK and real-time rendering</p>
+    <div class="tech-stack">
+      <span class="tech-badge">Unity</span>
+      <span class="tech-badge">WebGL</span>
+      <span class="tech-badge">React.js</span>
+    </div>
+  </div>
+  <div class="project-mini-card">
+    <h4>FPS Game Development Kit</h4>
+    <p>Complete first-person shooter kit aligned with modern weapons ready for game integrations</p>
+    <div class="tech-stack">
+      <span class="tech-badge">C#</span>
+      <span class="tech-badge">Unity</span>
+      <span class="tech-badge">FPS</span>
+    </div>
+  </div>
+  
 </div>
 
 [View All Projects →](/projects)

@@ -16,6 +16,9 @@ I'm always interested in discussing innovative projects, particularly those invo
   <a href="https://linkedin.com/in/xaifullahxady" class="contact-link" target="_blank">
     💼 LinkedIn
   </a>
+  <a href="https://api.whatsapp.com/send?phone=923366633644&text=Hi%20Sadi!%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect." class="contact-link" target="_blank">
+    ✆ WhatsApp
+  </a>
 </div>
 
 ## Let's Collaborate
@@ -42,7 +45,6 @@ With **10+ years of experience** across game development, full-stack web develop
 - Large-scale 3D data visualization
 - Real-time tactical monitoring systems
 
----
 
 ## Response Time
 

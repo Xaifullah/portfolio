@@ -97,8 +97,6 @@ A comprehensive overview of my technical expertise across game development, full
   </div>
 </div>
 
----
-
 ## Technology Matrix
 
 | **Game Development** | **Full-Stack Development** | **Geospatial & Simulation** | **AI-Driven Development** |
@@ -108,7 +106,6 @@ A comprehensive overview of my technical expertise across game development, full
 | Avatar Systems (SDKs) | TypeScript / JavaScript | Spatial Analysis (LoS/Viewshed) | AI Pair Programming |
 | Real-time Rendering | RESTful APIs / Docker | 3D Data Streaming (3DTiles) | Prompt Engineering |
 
----
 
 ## Currently Learning
 
@@ -125,7 +122,6 @@ A comprehensive overview of my technical expertise across game development, full
 </div>
 
 ---
-
 [View my projects →](/projects) | [Contact me →](/contact)
 
 </div>

@@ -1,146 +1,146 @@
-%-------------------------
-% ATS-Friendly Resume in LaTeX (2 Pages)
-% Author: Safiullah Sadi
-%-------------------------
+\documentclass[11pt,a4paper,sans]{article}
 
-\documentclass[10.5pt,a4paper]{article}
-
+% Packages for layout and styling
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage[top=0.4in, bottom=0.4in, left=0.5in, right=0.5in]{geometry}
-\usepackage{titlesec}
-\usepackage{enumitem}
+\usepackage[margin=0.75in]{geometry}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
 \usepackage{xcolor}
 
-% ATS-friendly: Simple colors
-\definecolor{linkcolor}{RGB}{0, 0, 139}
+% Color definitions
+\definecolor{primary}{HTML}{2E2E2E}
+\definecolor{linkcolor}{HTML}{0000EE}
 
-% Hyperlink setup
 \hypersetup{
     colorlinks=true,
-    linkcolor=linkcolor,
-    urlcolor=linkcolor
+    linkcolor=primary,
+    urlcolor=linkcolor,
+    pdftitle={Saifullah Sadi - CV},
 }
 
-% Formatting - ATS friendly simple sections
-\pagestyle{empty}
-\setlength{\parindent}{0pt}
-\titleformat{\section}{\normalsize\bfseries\uppercase}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{8pt}{4pt}
+% Section styling
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% Custom list styling
+\setlist[itemize]{leftmargin=0.15in, nosep, topsep=2pt}
 
 \begin{document}
 
-%------------------------
-% HEADER
-%------------------------
+% Header
 \begin{center}
-    {\Large\bfseries SAFIULLAH SADI}\\[4pt]
-    Full-Stack Software Engineer | Unity Game Developer | Geospatial Specialist\\[4pt]
-    saifullahsadi@hotmail.com | linkedin.com/in/xaifullahxady | github.com/Xaifullah\\
-    +92-3366633644 | +92-3101612030 \\ Pakistan | Open to Remote Work
+    {\huge \textbf{SAIFULLAH SADI}} \\
+    \vspace{4pt}
+    Senior Software Engineer | Unity Multiplayer \& Geospatial Specialist \\
+    \vspace{4pt}
+    Lahore, Pakistan | +92-336-6633644 | \href{mailto:saifullahsadi@hotmail.com}{saifullahsadi@hotmail.com} \\
+    \href{https://linkedin.com/in/xaifullahxady}{linkedin.com/in/xaifullahxady} | \href{https://github.com/Xaifullah/Intro}{github.com/Xaifullah/Intro}
 \end{center}
 
-\vspace{4pt}
-
-%------------------------
-% PROFESSIONAL SUMMARY
-%------------------------
+% Summary
 \section{Professional Summary}
-Full-Stack Software Engineer with 10+ years of experience in game development, geospatial systems, and web applications. Published 100+ games and contributed to 300+ projects across Android, iOS, PC (Steam), Amazon, and Huawei AppGallery. Expert in Unity3D, C\#, Vue.js, React, TypeScript, and Node.js. Strong problem-solver with collaborative mindset.
+Senior Software Engineer with over 10 years of experience in real-time 3D, game development, and complex mapping systems. Expert in \textbf{Unreal Engine} and \textbf{Unity} for high-performance simulation and multiplayer experiences. Specialist in geospatial visualization using \textbf{Cesium.js} and \textbf{OpenLayers}. Proven track record of leading teams and managing rapid-action prototyping environments to deliver highly engaged user experiences.
 
-%------------------------
-% TECHNICAL SKILLS
-%------------------------
+% Technical Skills
 \section{Technical Skills}
-\textbf{Languages:} C\#, TypeScript, JavaScript, Python, SQL, HTML5, CSS3\\[2pt]
-\textbf{Game Development:} Unity3D (10 years), Game Physics, AI/NPC Systems, Mobile \& PC Publishing\\[2pt]
-\textbf{Frontend:} Vue.js, React.js, VitePress, Tailwind CSS, SPA, State Management (Vuex, Redux)\\[2pt]
-\textbf{Backend:} Node.js, Express.js, REST APIs, Firebase, Real-time Databases, Authentication\\[2pt]
-\textbf{Geospatial:} CesiumJS, OpenLayers, 3D Tiles, GIS, Terrain Generation, Spatial Analysis\\[2pt]
-\textbf{Tools:} Git, Docker, AWS, Steam, Google Play, App Store, Amazon Appstore, Huawei AppGallery
+\begin{itemize}
+    \item \textbf{Engines \& Languages:} Unreal Engine, Unity3D, C\#, C++, JavaScript, TypeScript, Node.js.
+    \item \textbf{Geospatial:} Cesium.js, OpenLayers, 3D Tiles, GIS, Terrain Generation, Real-Time Maps.
+    \item \textbf{AI-Driven Web \& Frontend:} Vue.js, React.js, WebGL, REST APIs.
+    \item \textbf{Specialized:} Multiplayer \& Networking, Web3/Blockchain, Rendering Optimization, Physics \& Math.
+    \item \textbf{Tools:} AWS, Docker, Git, CI/CD, Google Play, App Store, Steam.
+\end{itemize}
 
-%------------------------
-% PROFESSIONAL EXPERIENCE
-%------------------------
+% Experience
 \section{Professional Experience}
 
-\textbf{Senior Game Developer \& Full-Stack Engineer} \hfill 2014 -- Present\\
-\textit{Various Studios \& Independent Development} \hfill Pakistan (Remote)
-
-\vspace{3pt}
-
-
-\vspace{3pt}
-\textbf{Geospatial \& 3D Simulation:}
-\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
-    \item Developed Defense Planning \& 3D Simulation Systems for strategic visualization
-    \item Built Unity Terrain Generator Plugin using online elevation data and satellite imagery
-    \item Implemented Line of Sight (LOS) and Viewshed Analysis tools for terrain evaluation
-    \item Created Dual-Map systems with synchronized 2D/3D views using CesiumJS and OpenLayers
-    \item Developed real-time 3D visualization using 3D Tiles for large-scale geospatial rendering
+\textbf{Big Immersive Pvt Ltd} \hfill \textbf{Dec 2022 -- Feb 2026 (3.2Y)} \\
+\textit{Sr. Software Engineer} \hfill Lahore, Pakistan
+\begin{itemize}
+     \item AI-Driven development in \textbf {MERN stack using CLAUDE} for fast speed, modular and architectural code and CI/CD pipelines \textbf{React/Vue, Express Node, MongoDB}.
+    \item Developing a geospatial software solution utilizing \textbf{Cesium.js, Node.js, Vue.js, and React.js}.
+    \item Implementing advanced geospatial calculations, real-time visualization, and system integrations in \textbf{Unreal Engine} and \textbf{Unity}.
+    \item Applying Unreal Engine for prototyping visualization workflows and extending learning into production-grade contexts.
+    \item Developing multiplayer experiences, custom tools, and Web3.0 integrations.
 \end{itemize}
 
-\vspace{3pt}
-\textbf{Web Development:}
-\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
-    \item \textbf{Maians (maians.io):} 3D Avatar Platform with cross-platform SDK for web/mobile integration
-    \item \textbf{Crib \& Condo (Virtua Metaverse):} Social 3D environments with real-time multiplayer
-    \item Built full-stack applications with Vue.js/React frontend and Node.js backend
-    \item Developed RESTful APIs and real-time features using WebSocket connections
+\vspace{8pt}
+
+\textbf{Tribech Solution Pvt Ltd} \hfill \textbf{Oct 2020 -- Dec 2022 (2.1Y)} \\
+\textit{Team Lead} \hfill Lahore, Pakistan
+\begin{itemize}
+    \item Managed hyper-casual genre prototyping from concept to final product in a rapid-action environment.
+    \item Collaborated with art and design teams to create highly engaged user experiences.
 \end{itemize}
-\textbf{Game Development:}
-\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
-    \item Published 100+ games from concept to release on Google Play, App Store, Steam, Amazon, Huawei
-    \item Contributed to 300+ game projects as lead developer, gameplay programmer, and technical consultant
-    \item Built FPS Kit from scratch with modern controls, realistic physics, weapon mechanics, and AI behavior
-    \item Created reusable Unity packages and plugins reducing development time by 40\%
-    \item Implemented AI/NPC systems including pathfinding, decision trees, and state machines
-    \item Developed games across genres: Simulation, Hyper-Casual, Action, Shooting, Racing, Arcade
-    \item Integrated analytics, monetization (ads, IAP), and social features into mobile games
+
+\vspace{8pt}
+
+\textbf{MITByte} \hfill \textbf{March 2018 -- Aug 2019 (1.5Y)} \\
+\textit{Project Manager \& Tech Lead} \hfill Lahore, Pakistan
+\begin{itemize}
+    \item Led technical development and project management for hyper-casual game portfolios.
+    \item Oversaw rapid prototyping cycles and cross-functional team collaboration.
 \end{itemize}
-%------------------------
-% KEY PROJECTS
-%------------------------
+
+\vspace{8pt}
+
+\textbf{Galassia Studios} \hfill \textbf{Sep 2016 -- Oct 2017 (1Y)} \\
+\textit{Team Lead} \hfill Lahore, Pakistan
+\begin{itemize}
+    \item Directed development teams in the creation and optimization of mobile game titles.
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Sunstar Technologies} \hfill \textbf{Sep 2015 -- Aug 2016 (1Y)} \\
+\textit{Sr. Unity3D Game Developer} \hfill Lahore, Pakistan
+\begin{itemize}
+    \item Developed gameplay mechanics and systems for hyper-casual titles using Unity3D.
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Absomech} \hfill \textbf{March 2014 -- Aug 2015 (1.5Y)} \\
+\textit{Unity3D Game Developer} \hfill Lahore, Pakistan
+\begin{itemize}
+    \item Engineered core gameplay loops and mobile optimizations for various game genres.
+\end{itemize}
+
+% Projects
 \section{Key Projects}
-\textbf{Geospatial Visualization Platform} | CesiumJS, OpenLayers, Vue.js\\
-Interactive 2D/3D mapping with Line of Sight and Viewshed analysis tools, real-time data overlay.
+\begin{itemize}
+    \item \textbf{Geospatial Defense Simulation:} Developed 3D strategic defense simulations in Cesium.js, integrating dynamic weather systems and complex spatial analysis tools including Line of Sight (LOS) and 3D Viewshed Analysis.
+    \item \textbf{Cardano Island 3D (Multiplayer Metaverse):} Real-world 3D metaverse experience in Unity for the Cardano community featuring land ownership and deeds.
+    \item \textbf{Maians (Avatar Creator Tool):} A 3D avatar platform integrating AI, Social Identity, and Web3.
+    \item \textbf{Crib \& Condo / Gamer's Lounge:} Multiplayer virtual 3D spaces for the Virtua Metaverse allowing for personalization and social interaction.
+    \item \textbf{Unity Terrain Generator:} Plugin for generating real-world terrain meshes/Unity terrains from elevation data.
+\end{itemize}
+% Personal Projects
+\section{Personal Projects}
+\begin{itemize}
+    \item \textbf{Community App:} AI-Driven Cross-platform Flutter application featuring real-time location tracking and movement handling. Built with a Node.js/Express backend and WebSocket for live data synchronization. 
+    \\ \textit{Tech: Flutter, Dart, AWS S3, PostgreSQL, Node.js, WebSockets}
 
-\vspace{3pt}
-\textbf{Unity Terrain Generator Plugin} | Unity3D, C\#, REST APIs\\
-Generates real-world terrain meshes from elevation data with automatic satellite texture mapping. Used in defense simulation applications.
+    \item \textbf{Agentic AI Data Engineering Tool:} AI-Driven Web-based data science platform for automated CSV analysis and visualization. Integrated Agentic AI to recommend data-cleaning workflows and prepare datasets for Machine Learning models.
+    \\ \textit{Tech: React, Python, Node.js, MongoDB, OpenAI/Gemini API}
+\end{itemize}
+% Education
+\section{Education \& Certifications}
+\begin{itemize}
+    \item \textbf{Bachelor of Science in Information Technology} \hfill 2010 -- 2014 \\
+    The Islamia University Of Bahawalpur, Bahawalpur, Pakistan
+    \item \textbf{Google AI Essentials} \hfill Nov 2024 \\
+    Coursera | Score: 80\%+ (\href{https://www.credly.com/go/5SB7Z39c}{Credly})
+\end{itemize}
 
-\vspace{3pt}
-\textbf{3D Avatar Platform (Maians)} | Vue.js, Node.js, WebGL\\
-Web-based avatar creation platform with cross-platform SDK and real-time rendering system.
-
-\vspace{3pt}
-\textbf{FPS Game Development Kit} | Unity3D, C\#\\
-Comprehensive first-person shooter framework with weapon system, AI enemies, level progression. Foundation for 10+ published games.
-
-%------------------------
-% EDUCATION & CERTIFICATIONS
-%------------------------
-\section{Education}
-\textbf{Bachelor of Science in Computer Science} 3.45 CGPA | Pakistan
-
-\section{Certifications}
-\textbf{Google AI Essentials} | Coursera | November 2024\\
-Successfully completed Google AI Essentials course with 80\%+ score.\\
-Credential: \href{https://www.credly.com/go/5SB7Z39c}{credly.com/go/5SB7Z39c}
-
-\section{Professional Development}
-\textbf{Currently Learning:} MCP (Model Context Protocol), AI Agentic Systems, LLM Integration\\[2pt]
-\textbf{Activities:} Game jams, hackathons, Unity developer community contributor
-
-%------------------------
-% ADDITIONAL INFORMATION
-%------------------------
+% Additional
 \section{Additional Information}
-\textbf{Work Style:} Collaborative team player, positive attitude, analytical thinking, creative problem-solver\\[2pt]
-\textbf{Languages:} English (Professional), Urdu (Native)\\[2pt]
-\textbf{Interests:} Adventure motorcycle touring in northern Pakistan, active Pakistani biker community member\\[2pt]
-\textbf{Availability:} Open to full-time, contract, and remote opportunities worldwide
+\begin{itemize}
+    \item \textbf{Languages:} Urdu (Native), English (Professional).
+    \item \textbf{Interests:} Adventure motorcycle touring
+    \item \textbf{Current Focus:} MCP (Model Context Protocol) and AI Agentic Systems.
+\end{itemize}
 
 \end{document}
