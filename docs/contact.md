@@ -25,12 +25,6 @@ I'm always interested in discussing innovative projects, particularly those invo
 
 With **10+ years of experience** across game development, full-stack web development, and geospatial systems, I can help with:
 
-### Game Development
-- Unity3D development (WebGL, Mobile, Desktop)
-- Cross-platform SDK architecture
-- 3D avatar and character systems
-- Real-time multiplayer networking
-- WebGL optimization and performance tuning
 
 ### Full-Stack Development
 - Vue.js / React.js frontend development
@@ -45,6 +39,12 @@ With **10+ years of experience** across game development, full-stack web develop
 - Large-scale 3D data visualization
 - Real-time tactical monitoring systems
 
+### Game Development
+- Unity3D development (WebGL, Mobile, Desktop)
+- Cross-platform SDK architecture
+- 3D avatar and character systems
+- Real-time multiplayer networking
+- WebGL optimization and performance tuning
 
 ## Response Time
 

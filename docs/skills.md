@@ -6,22 +6,6 @@ A comprehensive overview of my technical expertise across game development, full
 
 <div class="skills-grid">
   <div class="skill-category">
-    <h3>Game Development</h3>
-    <div class="skill-list">
-      <span class="skill-item">Unity3D</span>
-      <span class="skill-item">C#</span>
-      <span class="skill-item">WebGL</span>
-      <span class="skill-item">Mobile (iOS/Android)</span>
-      <span class="skill-item">PC/Desktop</span>
-      <span class="skill-item">Avatar Systems</span>
-      <span class="skill-item">Cross-Platform SDKs</span>
-      <span class="skill-item">Real-time Rendering</span>
-      <span class="skill-item">Shader Programming</span>
-      <span class="skill-item">Multiplayer Networking</span>
-    </div>
-  </div>
-
-  <div class="skill-category">
     <h3>Frontend Development</h3>
     <div class="skill-list">
       <span class="skill-item">Vue.js</span>
@@ -73,7 +57,6 @@ A comprehensive overview of my technical expertise across game development, full
       <span class="skill-item">Cloud Architecture</span>
     </div>
   </div>
-
   <div class="skill-category">
     <h3>Specializations</h3>
     <div class="skill-list">
@@ -95,6 +78,22 @@ A comprehensive overview of my technical expertise across game development, full
       <span class="skill-item">AI Code Review</span>
     </div>
   </div>
+    <div class="skill-category">
+    <h3>Game Development</h3>
+    <div class="skill-list">
+      <span class="skill-item">Unity3D</span>
+      <span class="skill-item">C#</span>
+      <span class="skill-item">WebGL</span>
+      <span class="skill-item">Mobile (iOS/Android)</span>
+      <span class="skill-item">PC/Desktop</span>
+      <span class="skill-item">Avatar Systems</span>
+      <span class="skill-item">Cross-Platform SDKs</span>
+      <span class="skill-item">Real-time Rendering</span>
+      <span class="skill-item">Shader Programming</span>
+      <span class="skill-item">Multiplayer Networking</span>
+    </div>
+  </div>
+
 </div>
 
 ## Technology Matrix

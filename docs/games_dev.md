@@ -2,8 +2,7 @@
 
 <div class="content-container">
 
-Having more than 7+ years of professional journey of games development which leads to webGL and AI-Driven full stack development.
-Using **Unity3d** and **Visual Studios** to deliver production-ready game titles while maintaining high code quality.
+Having more than 7+ years of professional journey of games development using **Unity3d** and **Visual Studios** to deliver production-ready game titles while maintaining high code quality.
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; justify-content: center;">
   <div style="text-align: center; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 12px; min-width: 150px;">

@@ -13,7 +13,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#646cff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Saifullah Sadi - AI-Driven Full-Stack Software Engineer' }],
-    ['meta', { property: 'og:description', content: '10+ years in game development, AI-Driven full-stack web development, and geospatial simulation systems' }],
+    ['meta', { property: 'og:description', content: 'AI-Driven full-stack web development, and geospatial simulation systems' }],
     ['meta', { property: 'og:image', content: '/portfolio/android-chrome-512x512.png' }],
   ],
 
@@ -24,7 +24,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'AI-Driven', link: '/projects' },
+      { text: 'Full Stack', link: '/projects' },
       { text: 'Games Development', link: '/games_dev' },
       { text: 'Skills', link: '/skills' },
       { text: 'Contact', link: '/contact' },
