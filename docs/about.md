@@ -4,88 +4,100 @@
 
 ## Who I Am
 
-I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies. I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
+I'm **Saifullah Sadi**, a full-stack software engineer specializing in AI-driven development, geospatial systems, and interactive 3D applications. I build scalable, production-ready solutions using modern web technologies combined with advanced spatial visualization and real-time 3D rendering.
 
-## Specialized Pillars of Expertise
+## Core Expertise
 
-### 1. Unity & Game Development
+### Full-Stack Development
 
-- **Engine Mastery**: 10 years of experience with **Unity3D** across WebGL, Mobile (iOS/Android), and PC/Desktop environments
-- **Architecture**: Expert in building **cross-platform SDKs** and character creation pipelines (3D avatar systems)
-- **Core Systems**: Advanced C# scripting, real-time multiplayer networking, and complex UI/UX integration within 3D environments
-- **Graphics**: Specialized in **WebGL optimization**, shader implementation, and performance tuning for browser-based 3D
+**Frontend Excellence**
+- **Modern Frameworks**: Expert in **Vue.js 3** and **React.js** with **TypeScript** for type-safe, maintainable applications
+- **Mobile Development**: Building cross-platform apps with **Flutter/Dart** for iOS and Android
+- **UI/UX**: Responsive design with **Tailwind CSS**, component libraries, and modern design systems
+- **State Management**: Vuex, Pinia, Redux, and Context API for complex application state
+- **Performance**: Code splitting, lazy loading, and optimization for fast, smooth user experiences
 
-### 2. Full-Stack Web Development
+**Backend Architecture**
+- **API Development**: RESTful and GraphQL APIs using **Node.js** and **Express.js**
+- **Database Design**: SQL (**PostgreSQL**) and NoSQL (MongoDB, Redis) for scalable data architecture
+- **Cloud Infrastructure**: **Google Cloud Platform**, AWS (S3, Lambda), containerization with **Docker**
+- **Authentication**: JWT, OAuth 2.0, and secure session management
+- **Real-time**: WebSocket integration for live updates and collaborative features
 
-- **Frontend**: Professional-grade development using **Vue.js** and **React.js** powered by **TypeScript**
-- **Backend**: Scalable microservices and RESTful API design using **Node.js** and **Express.js**
-- **Infrastructure**: Database management (SQL/NoSQL), authentication systems, and cloud-ready application architecture
-- **Tools**: Git, Docker, CI/CD pipelines, and Agile-driven development workflows
+**DevOps & Tools**
+- **Version Control**: Git, GitHub workflows, and collaborative development
+- **CI/CD**: Automated testing, deployment pipelines, and continuous integration
+- **Monitoring**: Application performance monitoring and error tracking
+- **Agile**: Sprint planning, code reviews, and iterative development
 
-### 3. Geospatial & 3D Simulation
+### Geospatial & 3D Visualization
 
-- **Defense & GIS**: Development of **customized GIS applications** specifically tailored for defense systems and mission planning
-- **Large-Scale Visualization**: Handling massive 3D datasets, 3D Tiles, and terrain streaming optimization in **CesiumJS** (3D) and **OpenLayers** (2D)
-- **Advanced Spatial Analysis**: Engineered custom tactical tools including **Line of Sight (LoS)**, **Viewshed Analysis**, and terrain profile calculation
-- **Simulation Systems**: Architecting **Dual-Map systems** with synchronized 2D/3D transitions for real-time tactical monitoring
+**Advanced GIS Applications**
+- **3D Globe Rendering**: **CesiumJS** for photorealistic terrain, satellite imagery, and tactical overlays
+- **2D Mapping**: **OpenLayers** for high-performance vector/raster layers and real-time data visualization
+- **Spatial Analysis**: Custom tools for Line of Sight, Viewshed Analysis, terrain profiling, and coverage calculation
+- **Data Streaming**: 3D Tiles optimization for massive datasets and real-time terrain rendering
+- **Defense Systems**: Mission planning tools, tactical monitoring, and synchronized dual-map interfaces
 
-## What Drives Me
+**Technical Integration**
+- Coordinate system transformations and projection handling
+- Real-time data integration with WebSocket and REST APIs
+- Performance optimization for large-scale geospatial datasets
+- Custom spatial analysis algorithms and computational geometry
 
-- **Innovation**: Pushing the boundaries of what's possible with real-time 3D and geospatial technology
-- **Problem-Solving**: Turning complex technical challenges into elegant, performant solutions
-- **Cross-Domain Expertise**: Bridging game development, web technologies, and geospatial systems
-- **Performance**: Optimizing for the best user experience across all platforms
+### 3D Web Applications
 
+**Interactive 3D Experiences**
+- **WebGL Optimization**: High-performance 3D rendering in browsers
+- **Unity WebGL**: Integrating Unity3D applications with modern web frameworks
+- **Real-time Rendering**: Smooth 60fps experiences with complex 3D scenes
+- **Cross-Platform**: Ensuring consistent performance across desktop and mobile browsers
 
 ## AI-Augmented Development Workflow
 
 <div class="ai-workflow-about">
 
-I've integrated AI tools into my development process to deliver higher-quality software faster. Using **Claude** for architecture decisions and **Cursor IDE** for AI-assisted coding, I've transformed how I approach complex projects in web and geospatial development.
+I've integrated AI tools into my development process to deliver enterprise-grade software faster without compromising quality. Using **Claude** for architecture and **Cursor IDE** for intelligent coding assistance, I've achieved 2-3x faster development cycles.
 
-**How AI Enhances My Work:**
-- **Architecture Planning**: Claude helps evaluate design patterns and trade-offs for scalable systems
-- **Code Generation**: Cursor accelerates boilerplate and repetitive code
-- **Code Review**: AI catches potential issues before they become bugs
-- **Documentation**: Auto-generated documentation keeps projects maintainable
+**How AI Powers My Workflow:**
+- **Architecture Design**: Claude evaluates patterns, suggests optimizations, and helps design scalable systems
+- **Rapid Prototyping**: Transform requirements into working code in hours instead of days
+- **Code Quality**: AI-assisted review catches bugs, security issues, and performance problems early
+- **Documentation**: Auto-generated docs, inline comments, and technical documentation
+- **Problem Solving**: Quick exploration of multiple approaches to complex challenges
 
-**The Human + AI Advantage:**
-My 10+ years of experience combined with AI assistance means I can deliver production-ready code 2-3x faster, maintain consistent code quality across large codebases, and focus on creative problem-solving while AI handles routine tasks.
+**Real-World Results:**
+- Built a complete defense planning system with 3D visualization in record time
+- Developed cross-platform mobile app with backend infrastructure in parallel
+- Created data analysis platform with full visualization suite rapidly
 
-*Note: I apply AI-driven development to my web and geospatial work. My game development expertise (100+ published games) was built before these tools existed - that's 10 years of pure hands-on experience.*
+My decade of software engineering experience ensures I know *what* to build, while AI helps me build it faster and better.
 
 </div>
-
 
 ## Currently Exploring
 
-I'm always expanding my expertise. Currently diving deep into:
+Staying ahead of the curve with cutting-edge technologies:
 
-- **Claude Code** - CLI-based AI development workflows for terminal-first productivity
-- **Cursor IDE** - AI-first code editor with deep codebase understanding
-- **MCP (Model Context Protocol)** - Building integrations for AI-powered development tools
-- **AI Agentic Systems** - Exploring autonomous agent architectures and multi-agent workflows
-- **LLM Integration** - Connecting large language models with real-world applications
-- **Flutter Development** - Building cross-platform mobile apps (personal project in progress)
+- **AI-Powered Development**: Claude Code (CLI), Cursor IDE, and MCP (Model Context Protocol) integrations
+- **LLM Applications**: Building AI-powered features into production applications
+- **Advanced Flutter**: Cross-platform mobile development with native performance
+- **Microservices**: Distributed architectures and service mesh patterns
+- **WebAssembly**: Performance-critical web applications with near-native speed
+
+## Background in Game Development
+
+With 10 years of Unity3D experience, I've published 50+ games across mobile and PC platforms. This background gives me unique expertise in:
+- Real-time rendering and performance optimization
+- Complex state management and game architecture
+- Cross-platform development (WebGL, iOS, Android, Steam)
+- 3D mathematics, physics systems, and interactive experiences
+
+While my focus has shifted to full-stack development, this foundation enables me to build exceptional 3D web applications and understand performance at a deeper level.
 
 ---
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 2rem 0; justify-content: center;">
-  <div style="text-align: center;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">10+</div>
-    <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Years Experience</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">50+</div>
-    <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Games Published</div>
-  </div>
-  <div style="text-align: center;">
-    <div style="font-size: 2rem; font-weight: bold; color: var(--vp-c-brand-1);">100+</div>
-    <div style="color: var(--vp-c-text-2); font-size: 0.9rem;">Projects Completed</div>
-  </div>
-</div>
-
-**10 Years** of turning complex technical challenges into elegant, performant solutions.
+**10 Years** of transforming complex challenges into scalable, production-ready solutions.
 
 [Check out my projects →](/projects) | [See my skills →](/skills)
 

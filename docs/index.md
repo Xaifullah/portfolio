@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Saifullah Sadi"
   text: "AI-Driven Full-Stack Software Engineer"
-  tagline: Game Developer | Geospatial & Real-Time Simulation
+  tagline: MERN / PERN | Geospatial & Real-Time Simulation
   image:
     src: /profile_removed_bg.png
     alt: Saifullah Sadi
@@ -20,9 +20,6 @@ hero:
       link: /contact
 
 features:
-  - icon: 🎮
-    title: Unity & Game Development
-    details: 10 years of Unity3D expertise across WebGL, Mobile, and Desktop. Specialized in cross-platform SDKs, avatar systems, and real-time multiplayer networking.
   - icon: 💻
     title: Full-Stack Web Development
     details: AI-Driven Professional-grade development with Vue.js, React.js, and TypeScript. Scalable backend solutions using Node.js and Express.js.
@@ -32,29 +29,42 @@ features:
   - icon: 📱
     title: Flutter App Development
     details: AI-Driven cross-platform app development using Flutter. Developing personal idea projects for a special community.
+
 ---
 
 <div class="content-container">
 
-<!-- Stats Section -->
-<div class="stats-section">
-  <div class="stat-card">
-    <div class="stat-number">10+</div>
-    <div class="stat-label">Years Experience</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">50+</div>
-    <div class="stat-label">Games Published</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">100+</div>
-    <div class="stat-label">Projects</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">3.45</div>
-    <div class="stat-label">CGPA (BS CS)</div>
-  </div>
-</div>
+ <!-- <div class="skill-list">
+      <span class="skill-item">Vue Js</span>
+      <span class="skill-item">React Js</span>
+      <span class="skill-item">Chart Js</span>
+      <span class="skill-item">TailWind</span>
+      <span class="skill-item">HTML</span>
+      <span class="skill-item">CSS</span>
+       <span class="skill-item">Flutter</span>
+      <span class="skill-item">Dart</span>
+      <span class="skill-item">Widgets</span>
+      <span class="skill-item">Cesium Js</span>
+      <span class="skill-item">OpenLayers</span>
+      <span class="skill-item">MapLibre</span>
+      <span class="skill-item">MapBox</span>
+      <span class="skill-item">.NET</span>
+      <span class="skill-item">Node</span>
+      <span class="skill-item">WebSocket</span>
+      <span class="skill-item">Google WebAPI</span>
+      <span class="skill-item">JWT</span>
+      <span class="skill-item">Auth</span>
+      <span class="skill-item">MongoDB</span>
+      <span class="skill-item">PostgreSQL</span>
+      <span class="skill-item">AWS S3 Buckets</span>
+      <span class="skill-item">GCP Storage</span>
+      <span class="skill-item">Docker</span>
+      <span class="skill-item">pgAdmin</span>
+      <span class="skill-item">AWS</span>
+      <span class="skill-item">GCP</span>
+    </div>
+     -->
+
 
 <!-- Hero with Code Block -->
 <div class="hero-with-code">
@@ -62,9 +72,9 @@ features:
 
 ## About Me
 
-I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive game development, geospatial applications, and cutting-edge simulation technologies.
+I'm **Saifullah Sadi**, a software engineer with a decade of experience bridging the worlds of immersive software development, geospatial applications, and cutting-edge simulation technologies.
 
-I architect scalable solutions that transform complex spatial data into interactive, real-time experiences.
+I architect scalable solutions that transform complex ideas into interactive, real-time experiences.
 
   </div>
   <div class="hero-code-block">
@@ -96,6 +106,18 @@ I architect scalable solutions that transform complex spatial data into interact
 ## Tech Stack
 
 <div class="tech-stack-grid">
+
+  <div class="tech-card">
+    <div class="tech-card-header">
+      <span class="icon">🤖</span> AI-Driven Dev
+    </div>
+    <div class="tech-badges">
+      <span class="tech-badge">Claude</span>
+      <span class="tech-badge">Cursor IDE</span>
+      <span class="tech-badge">AI Pair Programming</span>
+    </div>
+  </div>
+
   <div class="tech-card">
     <div class="tech-card-header">
       <span class="icon">💻</span> Languages
@@ -111,24 +133,14 @@ I architect scalable solutions that transform complex spatial data into interact
 
   <div class="tech-card">
     <div class="tech-card-header">
-      <span class="icon">🎮</span> Game Dev
-    </div>
-    <div class="tech-badges">
-      <span class="tech-badge">Unity3D</span>
-      <span class="tech-badge">Game Physics</span>
-      <span class="tech-badge">AI/NPC</span>
-      <span class="tech-badge">Publishing</span>
-    </div>
-  </div>
-
-  <div class="tech-card">
-    <div class="tech-card-header">
       <span class="icon">🎨</span> Frontend
     </div>
     <div class="tech-badges">
-      <span class="tech-badge">Vue.js</span>
-      <span class="tech-badge">React</span>
+      <span class="tech-badge">Vue js</span>
+      <span class="tech-badge">React Js</span>
       <span class="tech-badge">Tailwind</span>
+      <span class="tech-badge">Dart</span>
+      <span class="tech-badge">CSS</span>
     </div>
   </div>
 
@@ -140,6 +152,7 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">Node.js</span>
       <span class="tech-badge">Express</span>
       <span class="tech-badge">Firebase</span>
+      <span class="tech-badge">Python</span>
     </div>
   </div>
 
@@ -160,22 +173,27 @@ I architect scalable solutions that transform complex spatial data into interact
     </div>
     <div class="tech-badges">
       <span class="tech-badge">Git</span>
+      <span class="tech-badge">Plastic SCM</span>
       <span class="tech-badge">Docker</span>
       <span class="tech-badge">AWS</span>
       <span class="tech-badge">GCP</span>
     </div>
   </div>
 
-  <div class="tech-card">
+
+
+   <div class="tech-card">
     <div class="tech-card-header">
-      <span class="icon">🤖</span> AI-Driven Dev
+      <span class="icon">🎮</span> Game Dev
     </div>
     <div class="tech-badges">
-      <span class="tech-badge">Claude</span>
-      <span class="tech-badge">Cursor IDE</span>
-      <span class="tech-badge">AI Pair Programming</span>
+      <span class="tech-badge">Unity3D</span>
+      <span class="tech-badge">Game Physics</span>
+      <span class="tech-badge">AI/NPC</span>
+      <span class="tech-badge">Publishing</span>
     </div>
   </div>
+
 </div>
 
 </div>
@@ -185,32 +203,62 @@ I architect scalable solutions that transform complex spatial data into interact
 <div class="projects-showcase">
   <div class="project-mini-card">
     <span class="ai-badge">Built with AI</span>
-    <h4>Geospatial & Simulation Tool</h4>
-    <p>Interactive 2D/3D mapping with Line of Sight and Viewshed analysis tools</p>
+    <h4>ORBAT Simulation System</h4>
+    <p>Enterprise 2D/3D simulation for tactical planning, monitoring and spatial analysis.</p>
     <div class="tech-stack">
       <span class="tech-badge">CesiumJS</span>
       <span class="tech-badge">OpenLayers</span>
       <span class="tech-badge">Vue.js</span>
     </div>
   </div>
+
+  <div class="project-mini-card">
+    <span class="ai-badge">Built with AI</span>
+    <h4>Defense Planning & Simulation System</h4>
+    <p>Enterprise 2D/3D simulation for tactical planning & simulation.</p>
+    <div class="tech-stack">
+      <span class="tech-badge">CesiumJS</span>
+      <span class="tech-badge">OpenLayers</span>
+      <span class="tech-badge">Vue.js</span>
+    </div>
+  </div>
+
+
+  <div class="project-mini-card">
+    <span class="ai-badge">Built with AI</span>
+    <h4>Rocket Flight Simulation System</h4>
+    <p>Rocket depolyment in 2D & simulation in both 2d/3d for tactical flight analysis.</p>
+    <div class="tech-stack">
+      <span class="tech-badge">CesiumJS</span>
+      <span class="tech-badge">OpenLayers</span>
+      <span class="tech-badge">Vue.js</span>
+    </div>
+  </div>
+
   <div class="project-mini-card">
     <span class="ai-badge">Built with AI</span>
     <h4>AI Data Engineer Tool</h4>
     <p>CSV analysis tool with data visualization, geospatial mapping, and auto-clean system along with ai agentic integrations</p>
     <div class="tech-stack">
-      <span class="tech-badge">React</span>
-      <span class="tech-badge">Chart.js</span>
+      <span class="tech-badge">React Js</span>
+      <span class="tech-badge">Chart js</span>
       <span class="tech-badge">Leaflet</span>
+      <span class="tech-badge">Python</span>
+      <span class="tech-badge">Node</span>
+      <span class="tech-badge">Data Science</span>
     </div>
   </div>
     <div class="project-mini-card">
     <span class="ai-badge">Built with AI</span>
-    <h4>Community App</h4>
+    <h4>Community Mobile App</h4>
     <p>AI-Driven Cross-platform Flutter application featuring real-time location tracking and movement handling with live chat</p>
     <div class="tech-stack">
-      <span class="tech-badge">React</span>
-      <span class="tech-badge">Chart.js</span>
-      <span class="tech-badge">Leaflet</span>
+      <span class="tech-badge">Flutter</span>
+      <span class="tech-badge">Node</span>
+      <span class="tech-badge">MapLibre</span>
+      <span class="tech-badge">WebSocket</span>
+      <span class="tech-badge">Auth</span>
+      <span class="tech-badge">JWT</span>
     </div>
   </div>
   <div class="project-mini-card">
@@ -220,6 +268,10 @@ I architect scalable solutions that transform complex spatial data into interact
       <span class="tech-badge">C#</span>
       <span class="tech-badge">Unity</span>
       <span class="tech-badge">GIS</span>
+      <span class="tech-badge">Google Maps</span>
+      <span class="tech-badge">Height Maps</span>
+      <span class="tech-badge">Terrains</span>
+      <span class="tech-badge">Imagery</span>
     </div>
   </div>
   <div class="project-mini-card">
@@ -228,7 +280,7 @@ I architect scalable solutions that transform complex spatial data into interact
     <div class="tech-stack">
       <span class="tech-badge">Unity</span>
       <span class="tech-badge">WebGL</span>
-      <span class="tech-badge">React.js</span>
+      <span class="tech-badge">React js</span>
     </div>
   </div>
   <div class="project-mini-card">

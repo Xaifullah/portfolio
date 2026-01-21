@@ -24,7 +24,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Projects', link: '/projects' },
+      { text: 'AI-Driven', link: '/projects' },
+      { text: 'Games Development', link: '/games_dev' },
       { text: 'Skills', link: '/skills' },
       { text: 'Contact', link: '/contact' },
       {
