@@ -28,14 +28,14 @@ const getFallbackResponse = (userMessage: string): string => {
     return "You can reach me at:\n- Email: saifullahsadi@hotmail.com\n- WhatsApp: +92 336 6633644\n- LinkedIn: linkedin.com/in/xaifullahxady\n\nI'm open to full-time, contract, and remote opportunities worldwide!"
   }
   if (msg.includes('skill') || msg.includes('tech') || msg.includes('stack') || msg.includes('language')) {
-    return "I work with C#, TypeScript, JavaScript, Python. I have 10 years of Unity3D experience, plus Vue.js, React, Node.js for web. For geospatial, I use CesiumJS, OpenLayers, and 3D Tiles."
+    return "I work with C#, TypeScript, JavaScript, Python. I have 7+ years of Unity3D experience, plus 3+ years of Vue.js, React, Node.js for web. For geospatial, I use CesiumJS, OpenLayers, and 3D Tiles."
   }
   if (msg.includes('game') || msg.includes('unity')) {
-    return "I've published 100+ games and contributed to 300+ projects on Google Play, App Store, Steam, Amazon, and Huawei. I built an FPS Kit from scratch and created reusable Unity plugins that reduced dev time by 40%."
+    return "I've published 50+ games and contributed to 100+ projects on Google Play, App Store. I built an FPS Kit from scratch and created reusable Unity plugins that reduced dev time by 40%."
   }
   if (msg.includes('experience') || msg.includes('year') || msg.includes('work')) {
-    return "I'm a Senior Game Developer & Full-Stack Engineer with 10+ years of experience (2014 - Present). I specialize in game development, geospatial/3D simulation systems, and full-stack web development."
-  }
+    return "I'm a Senior Sofware Developer & Full-Stack Engineer with 3+ years of experience (2022 - Present). I am also specialize in game development (7+ years) and currently geospatial/3D simulation systems, and full-stack web development (3+ years)"
+}
   if (msg.includes('project')) {
     return "My key projects: 1) Geospatial Visualization Platform - 2D/3D mapping with analysis tools, 2) Unity Terrain Generator Plugin, 3) Maians - 3D Avatar Platform, 4) FPS Game Kit - foundation for 10+ published games, 5) Data Engineer Platform - CSV analysis and visualization tool, 6) Flutter Event & Group Platform (in progress)."
   }
@@ -55,7 +55,7 @@ const getFallbackResponse = (userMessage: string): string => {
     return "I'm currently building a Flutter app for event management and group coordination. It's a personal project using AI-driven development with Claude and Cursor for rapid prototyping. The app features event creation, group communication, and real-time notifications."
   }
   if (msg.includes('web') || msg.includes('frontend') || msg.includes('backend') || msg.includes('vue') || msg.includes('react')) {
-    return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include Maians (3D Avatar Platform), Crib & Condo (Virtua Metaverse), and Data Engineer Platform (React-based CSV analysis tool)."
+    return "I work with Vue.js, React, TypeScript, Node.js, and Express. My projects include defense planning and simulations systems, and Data Engineer Platform (React-based CSV analysis tool)."
   }
   if (msg.includes('hobby') || msg.includes('hobbies') || msg.includes('interest') || msg.includes('free time') || msg.includes('outside work')) {
     return "I'm an adventure motorcycle rider! I love touring the northern areas of Pakistan and I'm a proud member of the Pakistani biker community."
@@ -67,7 +67,7 @@ const getFallbackResponse = (userMessage: string): string => {
     return "I'm an adventure motorcycle enthusiast! I regularly tour the beautiful northern areas of Pakistan. The open road is where I find inspiration!"
   }
   if (msg.includes('cv') || msg.includes('resume') || msg.includes('download')) {
-    return "You can download my CV by clicking the 'Download CV' button in the header."
+    return "You can download my CV by clicking the 'Download CV' button in the header. here is the link https://xaifullah.github.io/portfolio/Saifullah_Sadi_CV.pdf"
   }
   if (msg.includes('certif') || msg.includes('course') || msg.includes('credential') || msg.includes('google ai')) {
     return "I have a Google AI Essentials certification from Coursera (November 2024). Verify at: credly.com/go/5SB7Z39c. I'm also learning MCP, AI Agentic Systems, and LLM Integration."
@@ -83,7 +83,7 @@ const SYSTEM_PROMPT = `You ARE Saifullah Sadi. Respond in FIRST PERSON as yourse
 
 === YOUR BACKGROUND ===
 
-I'm a AI-Driven Full-Stack Software Engineer with 10+ years of experience in game development, geospatial systems, and web & mobile applications. I've published 100+ games and contributed to 300+ projects across Android, iOS, PC (Steam), Amazon, and Huawei AppGallery.
+I'm a AI-Driven Full-Stack Software Engineer with 7+ years of experience in game development and 3+ years of experience in full stack web, geospatial systems, mobile applications.
 
 MY SKILLS:
 - Languages: C#, TypeScript, JavaScript, Python, SQL, HTML5, CSS3, Dart
@@ -102,7 +102,7 @@ I use Claude and Cursor IDE as my AI development partners for web and geospatial
 - Deliver projects 2-3x faster than traditional development
 - Maintain high code quality with AI-assisted review
 
-Note: My game development work (100+ published games) was done before AI tools - that's pure hands-on expertise built over 10 years.
+Note: My game development work (100+ published games) was done before AI tools - that's pure hands-on expertise built over 7+ years.
 
 MY EXPERIENCE (2014 - Present):
 Senior Game Developer & Full-Stack Engineer | Pakistan (Remote)
@@ -120,8 +120,8 @@ Web Development:
 - Built full-stack apps with Vue.js/React and Node.js
 
 Game Development:
-- Published 100+ games on Google Play, App Store, Steam, Amazon, Huawei
-- Contributed to 300+ game projects
+- Published 50+ games on Google Play, App Store
+- Contributed to 100+ game projects
 - Built FPS Kit from scratch with AI behavior and weapon mechanics
 - Created reusable Unity plugins reducing dev time by 40%
 
